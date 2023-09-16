@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clases</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./IERBlanco.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./lectures.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Clases</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./thesis.html" rel="" target="">
+ <span class="menu-text">Tesis</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto tools-wide">
+    <a href="https://twitter.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://code.com">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://bugs.com">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenido</h2>
+   
+  <ul>
+  <li><a href="#licenciatura-en-ingeniería-en-energías-renovables" id="toc-licenciatura-en-ingeniería-en-energías-renovables" class="nav-link active" data-scroll-target="#licenciatura-en-ingeniería-en-energías-renovables">Licenciatura en Ingeniería en Energías Renovables</a>
+  <ul>
+  <li><a href="#eólica" id="toc-eólica" class="nav-link" data-scroll-target="#eólica">Eólica</a>
+  <ul class="collapse">
+  <li><a href="#recursos" id="toc-recursos" class="nav-link" data-scroll-target="#recursos">Recursos</a>
+  <ul class="collapse">
+  <li><a href="#irena" id="toc-irena" class="nav-link" data-scroll-target="#irena">IRENA</a></li>
+  <li><a href="#gwec" id="toc-gwec" class="nav-link" data-scroll-target="#gwec">GWEC</a></li>
+  <li><a href="#global-wind-energy-atlas" id="toc-global-wind-energy-atlas" class="nav-link" data-scroll-target="#global-wind-energy-atlas">Global Wind Energy Atlas</a></li>
+  <li><a href="#obtren" id="toc-obtren" class="nav-link" data-scroll-target="#obtren">OBTREN</a></li>
+  </ul></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a>
+  <ul class="collapse">
+  <li><a href="#sesión-1---contenido-general-del-curso" id="toc-sesión-1---contenido-general-del-curso" class="nav-link" data-scroll-target="#sesión-1---contenido-general-del-curso">Sesión 1 - Contenido general del curso</a></li>
+  <li><a href="#sesión-2---energía-eólica-en-méxico-y-el-mundo" id="toc-sesión-2---energía-eólica-en-méxico-y-el-mundo" class="nav-link" data-scroll-target="#sesión-2---energía-eólica-en-méxico-y-el-mundo">Sesión 2 - Energía eólica en México y el Mundo</a></li>
+  <li><a href="#sesión-3---conceptos-básicos" id="toc-sesión-3---conceptos-básicos" class="nav-link" data-scroll-target="#sesión-3---conceptos-básicos">Sesión 3 - Conceptos Básicos</a></li>
+  </ul></li>
+  <li><a href="#sesiones" id="toc-sesiones" class="nav-link" data-scroll-target="#sesiones">Sesiones</a>
+  <ul class="collapse">
+  <li><a href="#sesión-1---contenido-general-del-curso-1" id="toc-sesión-1---contenido-general-del-curso-1" class="nav-link" data-scroll-target="#sesión-1---contenido-general-del-curso-1">Sesión 1 - Contenido general del curso</a></li>
+  <li><a href="#sesión-2---energía-eólica-en-méxico-y-el-mundo-1" id="toc-sesión-2---energía-eólica-en-méxico-y-el-mundo-1" class="nav-link" data-scroll-target="#sesión-2---energía-eólica-en-méxico-y-el-mundo-1">Sesión 2 - Energía eólica en México y el Mundo</a></li>
+  <li><a href="#sesión-3---conceptos-básicos-1" id="toc-sesión-3---conceptos-básicos-1" class="nav-link" data-scroll-target="#sesión-3---conceptos-básicos-1">Sesión 3 - Conceptos Básicos</a></li>
+  <li><a href="#sesión-4---patrones-de-circulación-del-viento" id="toc-sesión-4---patrones-de-circulación-del-viento" class="nav-link" data-scroll-target="#sesión-4---patrones-de-circulación-del-viento">Sesión 4 - Patrones de circulación del viento</a></li>
+  <li><a href="#sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" id="toc-sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" class="nav-link" data-scroll-target="#sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico">Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México</a></li>
+  <li><a href="#sesión-6---potencia-en-el-viento" id="toc-sesión-6---potencia-en-el-viento" class="nav-link" data-scroll-target="#sesión-6---potencia-en-el-viento">Sesión 6 - Potencia en el viento</a></li>
+  <li><a href="#sesión-7---modelos-de-capa-límite" id="toc-sesión-7---modelos-de-capa-límite" class="nav-link" data-scroll-target="#sesión-7---modelos-de-capa-límite">Sesión 7 - Modelos de capa límite</a></li>
+  <li><a href="#sesión-8--" id="toc-sesión-8--" class="nav-link" data-scroll-target="#sesión-8--">Sesión 8 -</a></li>
+  <li><a href="#sesión-9---histogramas-y-fdp" id="toc-sesión-9---histogramas-y-fdp" class="nav-link" data-scroll-target="#sesión-9---histogramas-y-fdp">Sesión 9 - Histogramas y FDP</a></li>
+  <li><a href="#sesión-10---ajuste-de-fdp-en-python" id="toc-sesión-10---ajuste-de-fdp-en-python" class="nav-link" data-scroll-target="#sesión-10---ajuste-de-fdp-en-python">Sesión 10 - Ajuste de FDP en Python</a></li>
+  <li><a href="#sesión-11---evaluación-del-recurso-eólico" id="toc-sesión-11---evaluación-del-recurso-eólico" class="nav-link" data-scroll-target="#sesión-11---evaluación-del-recurso-eólico">Sesión 11 - Evaluación del recurso eólico</a></li>
+  <li><a href="#sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." id="toc-sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." class="nav-link" data-scroll-target="#sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python.">Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.</a></li>
+  <li><a href="#sesión-13---costo-de-la-energía" id="toc-sesión-13---costo-de-la-energía" class="nav-link" data-scroll-target="#sesión-13---costo-de-la-energía">Sesión 13 - Costo de la energía</a></li>
+  <li><a href="#sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" id="toc-sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" class="nav-link" data-scroll-target="#sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python">Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python</a></li>
+  <li><a href="#sesión-15---evaluación-del-recurso---paso-a-paso" id="toc-sesión-15---evaluación-del-recurso---paso-a-paso" class="nav-link" data-scroll-target="#sesión-15---evaluación-del-recurso---paso-a-paso">Sesión 15 - Evaluación del recurso - Paso a Paso</a></li>
+  <li><a href="#sesión-16---introducción-a-aerodinámica" id="toc-sesión-16---introducción-a-aerodinámica" class="nav-link" data-scroll-target="#sesión-16---introducción-a-aerodinámica">Sesión 16 - Introducción a aerodinámica</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#posgrado-ingeniería-en-energía---unam" id="toc-posgrado-ingeniería-en-energía---unam" class="nav-link" data-scroll-target="#posgrado-ingeniería-en-energía---unam">Posgrado Ingeniería en Energía - UNAM</a>
+  <ul>
+  <li><a href="#modelos-meteorológicos-en-energía-eólica." id="toc-modelos-meteorológicos-en-energía-eólica." class="nav-link" data-scroll-target="#modelos-meteorológicos-en-energía-eólica.">Modelos Meteorológicos en energía eólica.</a>
+  <ul class="collapse">
+  <li><a href="#recursos-1" id="toc-recursos-1" class="nav-link" data-scroll-target="#recursos-1">Recursos:</a></li>
+  <li><a href="#física" id="toc-física" class="nav-link" data-scroll-target="#física">Física</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clases</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="licenciatura-en-ingeniería-en-energías-renovables" class="level1">
+<h1>Licenciatura en Ingeniería en Energías Renovables</h1>
+<p>En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.</p>
+<hr>
+<section id="eólica" class="level2">
+<h2 class="anchored" data-anchor-id="eólica">Eólica</h2>
+<section id="recursos" class="level3">
+<h3 class="anchored" data-anchor-id="recursos">Recursos</h3>
+<section id="irena" class="level4">
+<h4 class="anchored" data-anchor-id="irena">IRENA</h4>
+<iframe frameborder="100" width="100%" height="300" src="https://www.irena.org" title="IRENA"></iframe>
+</section>
+<section id="gwec" class="level4">
+<h4 class="anchored" data-anchor-id="gwec">GWEC</h4>
+<iframe width="100%" height="300" src="https://gwec.net" title="Global Wind Energu Council"></iframe>
+</section>
+<section id="global-wind-energy-atlas" class="level4">
+<h4 class="anchored" data-anchor-id="global-wind-energy-atlas">Global Wind Energy Atlas</h4>
+<iframe width="100%" height="300" src="https://globalwindatlas.info/es" title="Global Wind Energy Atlas"></iframe>
+</section>
+<section id="obtren" class="level4">
+<h4 class="anchored" data-anchor-id="obtren">OBTREN</h4>
+<iframe width="100%" height="300" src="https://obtrenmx.org" title="OBTREN"></iframe>
+<p><a href="https://www.gob.mx/sener/articulos/programa-de-desarrollo-del-sistema-electrico-nacional-2023-2037">PRODESEN - SENER - 2023 -2037.</a></p>
+<p><a href="https://www.gob.mx/sener/documentos/mapas-de-ruta-tecnologica-de-energias-renovables">Mapa de ruta de la energía eólica en México</a></p>
+<hr>
+</section>
+</section>
+<section id="python" class="level3">
+<h3 class="anchored" data-anchor-id="python">Python</h3>
+<section id="sesión-1---contenido-general-del-curso" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-1---contenido-general-del-curso">Sesión 1 - Contenido general del curso</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/sjF3NRMaUIo" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-2---energía-eólica-en-méxico-y-el-mundo" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-2---energía-eólica-en-méxico-y-el-mundo">Sesión 2 - Energía eólica en México y el Mundo</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Rt4EVcocMLQ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-3---conceptos-básicos" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-3---conceptos-básicos">Sesión 3 - Conceptos Básicos</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/aZO3JKYa6Cg" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<hr>
+</section>
+</section>
+<section id="sesiones" class="level3">
+<h3 class="anchored" data-anchor-id="sesiones">Sesiones</h3>
+<section id="sesión-1---contenido-general-del-curso-1" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-1---contenido-general-del-curso-1">Sesión 1 - Contenido general del curso</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/sjF3NRMaUIo" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-2---energía-eólica-en-méxico-y-el-mundo-1" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-2---energía-eólica-en-méxico-y-el-mundo-1">Sesión 2 - Energía eólica en México y el Mundo</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Rt4EVcocMLQ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-3---conceptos-básicos-1" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-3---conceptos-básicos-1">Sesión 3 - Conceptos Básicos</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/aZO3JKYa6Cg" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-4---patrones-de-circulación-del-viento" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-4---patrones-de-circulación-del-viento">Sesión 4 - Patrones de circulación del viento</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/2ImO2zu6NqQ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico">Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/8hVEa3Ml6RA" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-6---potencia-en-el-viento" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-6---potencia-en-el-viento">Sesión 6 - Potencia en el viento</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/nnVpddRlITE" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-7---modelos-de-capa-límite" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-7---modelos-de-capa-límite">Sesión 7 - Modelos de capa límite</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/pbRjzFxV_gQ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-8--" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-8--">Sesión 8 -</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/pbRjzFxV_gQ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-9---histogramas-y-fdp" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-9---histogramas-y-fdp">Sesión 9 - Histogramas y FDP</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/We23W10H4_M" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-10---ajuste-de-fdp-en-python" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-10---ajuste-de-fdp-en-python">Sesión 10 - Ajuste de FDP en Python</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/awknm1BcS9E" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-11---evaluación-del-recurso-eólico" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-11---evaluación-del-recurso-eólico">Sesión 11 - Evaluación del recurso eólico</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Z8RjZWY5xzU" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." class="level4">
+<h4 class="anchored" data-anchor-id="sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python.">Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/SvrZce2KJ6M" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-13---costo-de-la-energía" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-13---costo-de-la-energía">Sesión 13 - Costo de la energía</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/XyK3yQRJ0sU" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python">Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Kt-Zdmv4m54" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-15---evaluación-del-recurso---paso-a-paso" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-15---evaluación-del-recurso---paso-a-paso">Sesión 15 - Evaluación del recurso - Paso a Paso</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/mkgq4UHfCa0" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="sesión-16---introducción-a-aerodinámica" class="level4">
+<h4 class="anchored" data-anchor-id="sesión-16---introducción-a-aerodinámica">Sesión 16 - Introducción a aerodinámica</h4>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/uHuxLdSzF9I" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<hr>
+</section>
+</section>
+</section>
+</section>
+<section id="posgrado-ingeniería-en-energía---unam" class="level1">
+<h1>Posgrado Ingeniería en Energía - UNAM</h1>
+<section id="modelos-meteorológicos-en-energía-eólica." class="level2">
+<h2 class="anchored" data-anchor-id="modelos-meteorológicos-en-energía-eólica.">Modelos Meteorológicos en energía eólica.</h2>
+<section id="recursos-1" class="level3">
+<h3 class="anchored" data-anchor-id="recursos-1">Recursos:</h3>
+<ol type="1">
+<li>ECMWF ERA5</li>
+<li>NACR WRF</li>
+<li>Xarray</li>
+<li>Basemap</li>
+<li>Cartopy</li>
+</ol>
+</section>
+<section id="física" class="level3">
+<h3 class="anchored" data-anchor-id="física">Física</h3>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Osvaldo Rodríguez.</div>   
+    <div class="nav-footer-center">Con ayuda de <a href="https://www.json2yaml.com">json2yaml</a> <a href="https://ddimmery.com/posts/quarto-website/">DDimery</a> <a href="https://digitalorientalist.com/2020/01/21/making-word-clouds-with-python/">WordCloud</a> <a href="https://bootswatch.com">Boostwatch</a> <a href="https://quarto.org">quarto</a></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
