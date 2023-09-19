@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  #title: "osroh - website"
+  page-navigation: true
+  navbar:
+    background: primary
+    logo: IERBlanco.png
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - lectures.qmd
+      - research.qmd
+      - thesis.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a Bug
+            url:  https://bugs.com
+  page-footer: 
+    background: primary
+    left: "Copyright 2023, Osvaldo Rodríguez. "
+    center: "Con ayuda de [json2yaml](https://www.json2yaml.com) [DDimery](https://ddimmery.com/posts/quarto-website/) [WordCloud](https://digitalorientalist.com/2020/01/21/making-word-clouds-with-python/) [Boostwatch](https://bootswatch.com) [quarto](https://quarto.org)" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+   
+format:
+  html:
+    toc-title: Contenido
+    toc: true
+    toc-depth: 4
+    theme:
+        light: ier_claro.scss
+        dark: ier_dark.scss
+    css: styles.css
+    page-layout: full
+

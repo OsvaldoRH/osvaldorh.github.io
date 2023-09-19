@@ -1,0 +1,65 @@
+---
+title: "Osvaldo Rodríguez"
+image: foto.jpeg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 23em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/osvaldo-rodriguez-395a5874/
+    - text: Twitter
+      href: https://twitter.com/osvaldo_rh_
+    - text: Email
+      href: mailto:osroh@ier.unam.mx
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=rnDPvkQAAAAJ&hl=es
+    - text: ORCID
+      href: https://orcid.org/0000-0002-6567-4669
+    - text: ResearcherID
+      href: https://www.webofscience.com/wos/author/record/M-4989-2015
+    - text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=55318356400
+echo: false
+jupyter: python3
+---
+```{python}
+import docx2txt
+import string
+import nltk
+from nltk.stem import WordNetLemmatizer
+import wordcloud
+import matplotlib.pyplot as plt
+fullText = ""
+fullText += docx2txt.process("abstracts.docx")
+lemmatizer = WordNetLemmatizer()
+nltk_stopwords = nltk.corpus.stopwords.words('english')
+
+bookLower = fullText.lower()
+bookLetters = bookLower.translate(str.maketrans('','', string.digits))
+bookLettersOnly = bookLetters.translate(str.maketrans('', '', string.punctuation))
+
+clean = [word for word in bookLettersOnly.split() if word not in nltk_stopwords]
+
+reduced = [lemmatizer.lemmatize(word) for word in clean]
+
+reducedText = ' '.join(reduced)
+
+wordcloud = wordcloud.WordCloud(max_font_size=100, max_words=50, collocations=False, background_color='white',colormap='ocean',width=700, height=700).generate(reducedText)
+plt.figure(facecolor='none')
+plt.imshow(wordcloud, interpolation="bilinear")
+plt.axis("off")
+plt.show()
+```
+
+### Intereses
+
+Evaluación del recurso eólico en aplicaciones de baja y gran potencia | Estudios de factibilidad tecno-económica | Modelos meteorológicos en análisis eólico | Estudios locales, regionales y Nacionales del recurso | Complementariedad de sistemas de generación variable
+
+### Semblanza
+Investigador de tiempo completo del Instituto de Energías Renovables en el Grupo de Energía Eólica. Es miembro del Sistema Nacional de Investigadores Nivel 1. Ha participado como expositor en congresos nacionales e internacionales y ha sido ganador en certámenes nacionales de ahorro de energía y sustentabilidad. Actualmente cuenta con colaboraciones con la Universidad Tecnológica de Delft en Países Bajos y la Universidad de Reading en Reino Unido, es responsable del Laboratorio de Sistemas Eólicos del IER y Responsable Técnico del proyecto 272063 del Fondo de Sustentabilidad Energética SENER-CONACyT cuya finalidad es contribuir en la formación de recursos humanos altamente especializados en investigación en Energía Eólica. Actualmente representa a los y las investigadoras del Instituto ante el H. Consejo Universitario de la UNAM.
+
+### Educación
+
+Físico |  Universidad Nacional Autónoma de México
+Dr. en Ingeniería en Energía  | Universidad Nacional Autónoma de México

@@ -1,0 +1,95 @@
+---
+title: "Tesis"
+format: html
+---
+# Tesis premiadas
+
+```{=html}
+<div class="card text-white bg-success mb-3">
+  <div class="card-header">Premio Afirme - Fundación UNAM 2022</div>
+  <div class="card-body">
+    <h4 class="card-title">Tercer lugar - Tesis Licenciatura</h4>
+    <p class="card-text"> Héctor Samuel Ruíz Segoviano. Licenciatura en Ingeniería en Energías Renovables, IER UNAM. Título del trabajo: Diseño y prueba de un anemómetro para la evaluación del recurso eólico con aplicaciones en baja potencia. Graduado el 25-06-2019.</p>
+  </div>
+</div>
+<div class="card text-white bg-success mb-3">
+  <div class="card-header">PINCC - UNAM 2023</div>
+  <div class="card-body">
+    <h4 class="card-title">Primer Lugar categoría Tesis de Maestría</h4>
+    <p class="card-text"> Diego Arturo Canul Reyes. Maestría en Ingeniería, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Feasibility study of offshore wind energy in the Gulf of Mexico. Graduado el 14-10-2020. </p>
+  </div>
+</div>
+```
+
+## Licenciatura
+1. Juan Carlos Gutiérrez Pliego, Universidad Politécnica del Estado de Morelos, Ingeniero en Tecnología Ambiental. Revisión de impactos ambientales en energía eólica y su contexto en México. Fecha de Titulación: 6 de Diciembre del 2017.
+
+
+2. Alumna: Brenda Ayala Morales
+Universidad: Licenciatura en Ingeniería en Energías Renovables, IER UNAM. 
+Carrera: Ingeniera en Energías Renovables, Revisión de indicadores de sustentabilidad para energías renovables. Fecha de Titulación: 2 de Abril del 2018.
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/PY544QMNDEJ3JR88SPM18HTBPNUNMCMGGRNYDXT3QFH4HXS78D-33998?func=full-set-set&set_number=807952&set_entry=000009&format=999" role="button">Ver</a>
+
+
+3. Alumno: Tadeus Gallosa López, Universidad: Licenciatura en Ingeniería en Energías Renovables, IER UNAM.  
+Carrera: Ingeniera en Energías Renovables, Diseño y construcción de un aerogenerador de baja potencia con fines docentes, Fecha de Titulación: 26 de Junio del 2018.
+
+
+4. Daniel Baruch Carreón Cortés, Licenciatura en Ingeniería en Energías Renovables, IER UNAM. Ingeniero en Energías Renovables, Estudio de las simulaciones de la estela de aerogeneradores a escala en un arreglo de rotores desalineados. Fecha de Titulación: 23 de Agosto del 2018. 
+
+
+5. Alumna: Daniela Pardo Rea, Universidad: Licenciatura en Ingeniería en Energías Renovables, IER UNAM. 
+Carrera: Ingeniera en Energías Renovables, Diseño y construcción de un dispositivo eólico-solar para la recarga de equipos electrónicos, Fecha de Titulación: 24 de Agosto del 2018.
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/VPUG5M3RY13VS63LDEI97HF1LHNS4YPHHKX9R1AU1KD2FR2B3D-34797?func=full-set-set&set_number=807960&set_entry=000011&format=999" role="button">Ver</a>
+
+6. Alumna: Anahi Olmos Ovideo, Universidad: Licenciatura en Ingeniería en Energías Renovables, IER UNAM. Carrera: Ingeniera en Energías Renovables, Análisis de la evaluación del recurso eólico y la producción de potencia real para una granja eólica en el sureste de México, Fecha de Titulación: 13-12-2018. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/I9PEE3PA9C7XQ2I5V2LXXYSNCX52UDCDFCVI1MTGDCRLTGQRJY-34268?func=full-set-set&set_number=807958&set_entry=000010&format=999" role="button">Ver</a>
+
+7. Héctor Samuel Ruíz Segoviano.  \textbf{Licenciatura en Ingeniería en Energías Renovables}, IER UNAM. Título del trabajo: Diseño y prueba de un anemómetro para la evaluación del recurso eólico con aplicaciones en baja potencia. Graduado el 25-06-2019. \textbf{Tesis premiada Premio Afirme - Fundación UNAM 2022}.
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/FN7CK6NPC3CGX7MR4F6GL5KUQ532GV5SX6G9IIB5YMSXPRJNQE-36054?func=full-set-set&set_number=807967&set_entry=000002&format=999" role="button">Ver</a>
+
+
+## Maestría
+
+
+1. José Gustavo Hernández Yepes. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de modelos globales y mesoescala en evaluación del recurso eólico. Graduado el 23-01-2020. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/SI9MK4N512TH22MFLSNQGF3VGDP9VYETTR7QJH3I6YYHIS8DBL-33212?func=full-set-set&set_number=807947&set_entry=000007&format=999" role="button">Ver</a>
+
+2. Octavio Gómez Montero. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Diseño e instrumentación de un banco de pruebas electromecánicas para aerogeneradores de baja potencia. Graduado el 22-01-2020.
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/QRD8GUHT1G5V7I6KCU2KD9E1X9KMCKK64YQSLR33J2HY2SBM79-32979?func=full-set-set&set_number=807945&set_entry=000006&format=999" role="button">Ver</a>
+
+3. Diego Arturo Canul Reyes. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Feasibility study of offshore wind energy in the Gulf of Mexico. Graduado el 14-10-2020. \textbf{Tesis premiada PINCC - UNAM 2023, Primer Lugar categoría Tesis de Maestría}. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/8VEVKCYSL7456HKARQ5IAQR7SRVN7E38UYAYS5TA9UC31C46TV-08013?func=full-set-set&set_number=807942&set_entry=000005&format=999" role="button">Ver</a>
+
+4. Linda Guadalupe Canche Cab. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Estudio de los fenómenos climáticos y su influencia sobre la producción de potencia de una granja eólica para la región de Arriaga, Chiapas. Graduada el 20-10-2020. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/P9XTFEB46YNAJHMHDXDPF8U97BT86SLN5SCG1JKL7PT1KGRIMB-32186?func=full-set-set&set_number=807938&set_entry=000004&format=999" role="button">Ver</a>
+
+5. Yaro Debeer, \textbf{Master of Science in Engineering Technology.}  Co-Director de Tesis, Vrije Universiteit Brussel. Título del trabajo: Research on the meteorological and electricity demand tendencies in Mexico. Graduado el 22-06-2021. En este trabajo soy co-director de tesis. 
+
+<a class="btn btn-primary btn-sm" href="https://quarto.org" role="button">Ver</a>
+
+6. Hector Samuel Ruíz Segoviano.  \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de la efectividad de datos de reanálisis para aplicaciones en energía eólica en un entorno insular. Graduado el 17-03-2022. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/YJ9BAU5S8SSL2QESTPBGR6GGU21GSGLUJC2ELQE2SUTCL4GGY6-30822?func=full-set-set&set_number=807932&set_entry=000002&format=999" role="button">Ver</a>
+
+7. Lourdes Guadalupe Zamora García, \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Wind power temporal and spatial variability and its complementarity with the regional electricity demand in Mexico.  Graduada el 29-06-2022. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/GVMB7QVBTV7E2I87VXTBEIMKTJ2SVCTIAFIXLBJMHMT37XG9KD-31487?func=full-set-set&set_number=807934&set_entry=000003&format=999" role="button">Ver</a>
+
+8. Karla Alicia García Rivera,\textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis del recurso eólico en Puerto Peñasco, Sonora con datos de reanálisis, Graduada el 31-05-2023. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/DCVEVP6MRINFVRH1MY8Y5EHJNUX3T6QED8NFIHUX94QT6UR6BB-29885?func=full-set-set&set_number=807923&set_entry=000001&format=999" role="button">Ver</a>
+
+## Doctorado 
+
+1. Carlos Alberto López Villalobos, Doctorado en Ingeniería en Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Caracterización de la intensidad de turbulencia y energía contenida en ráfagas para aplicaciones en energía eólica. Este trabajo se desarrolló en Co-Dirección con el Dr. Rafael Campos Amezcua. Graduado el 02-08-2019. 
+
+<a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/59RTG3S7QLKMEP3D8MTR5HHFP87QVQRCFGB8RG2YDFGEG64B4R-33615?func=full-set-set&set_number=807950&set_entry=000008&format=999" role="button">Ver</a>

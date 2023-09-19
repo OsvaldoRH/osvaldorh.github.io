@@ -1,0 +1,616 @@
+salgado2019:
+    title: THD Reduction in Distributed Renewables Energy Access through Wind Energy Conversion System Integration under Wind Speed Conditions in Tamaulipas, Mexico
+    authors:
+        - Nadia Salgado-Herrera
+        - David Campos-Gaona
+        - Olimpo Anaya-Lara 
+        - Miguel Robles 
+        - me
+        - Juan Rodríguez-Rodríguez 
+    container-title: Energies
+    ISSN: 1996-1073
+    DOI: 10.3390/en12183550
+    published_url: https://www.mdpi.com/1996-1073/12/18/3550
+    abstract: In this article, a technique for the reduction of total harmonic distortion (THD) in distributed renewables energy access (DREA) composed of wind turbines is introduced and tested under the wind speed conditions presented in Tamaulipas, Mexico. The analysis and simulation are delimited by a study case based on wind speeds measured and recorded for one year at two highs in the municipality of Soto La Marina, Tamaulipas, Mexico. From this information, the most probable wind speed and the corresponding turbulence intensity is calculated and applied to a wind energy conversion system (WECS). The WECS is composed of an active front-end (AFE) converter topology using four voltage source converters (VSCs) connected in parallel with a different phase shift angle at the digital sinusoidal pulse width modulation (DSPWM) signals of each VSC. The WECS is formed by the connection of five type-4 wind turbines (WTs). The effectiveness and robustness of the DREA integration are reviewed in the light of a complete mathematical model and corroborated by the simulation results in Matlab-Simulink®. The results evidence a reduction of the THD in grid currents up to four times and which enables the delivery of a power capacity of 10 MVA in the Tamaulipas AC distribution grid that complies with grid code of harmonic distortion production.
+    year: 2019
+    issued:
+    date-parts:
+        - - '2019'
+    venue: Energies
+    page: '3550'
+    issue: '18'
+    volume: '12'
+    language: English
+    citekey: 10.3390/en12183550
+    id: 23a63913-843d-486d-87eb-0500b20c0963
+rodriguez2015:
+  title: Wind Power Error Estimation in Resource Assessments
+  authors:
+  - me
+  - Río Jesús A. del
+  - Jaramillo Oscar A.
+  - Martínez Manuel
+  container-title: PLoS ONE
+  ISSN: 1932-6203
+  DOI: 10.1371/journal.pone.0124830
+  PMID: '26000444'
+  PMCID: PMC4441467
+  published_url: http://dx.plos.org/10.1371/journal.pone.0124830
+  abstract: Estimating the power output is one of the elements that determine the
+    techno-economic feasibility of a renewable project. At present, there is a need
+    to develop reliable methods that achieve this goal, thereby contributing to wind
+    power penetration. In this study, we propose a method for wind power error estimation
+    based on the wind speed measurement error, probability density function, and wind
+    turbine power curves. This method uses the actual wind speed data without prior
+    statistical treatment based on 28 wind turbine power curves, which were fitted
+    by Lagrange's method, to calculate the estimate wind power output and the corresponding
+    error propagation. We found that wind speed percentage errors of 10% were propagated
+    into the power output estimates, thereby yielding an error of 5%. The proposed
+    error propagation complements the traditional power resource assessments. The
+    wind power estimation error also allows us to estimate intervals for the power
+    production leveled cost or the investment time return. The implementation of this
+    method increases the reliability of techno-economic resource assessment studies.
+  year: 2015
+  issued:
+    date-parts:
+    - - '2015'
+      - '05'
+      - '22'
+  venue: PLoS ONE
+  editor:
+  - Añel Juan A
+  page: e0124830
+  issue: '5'
+  volume: '10'
+  language: English
+  citekey: 10.1371/journal.pone.0124830
+  id: 35311cbb-59cc-411a-911e-d06561401bc4
+rodriguez2013:
+  title: Analysis about sampling, uncertainties and selection of a reliable probabilistic
+    model of wind speed data used on resource assessment
+  authors:
+  - me
+  - Jaramillo O.A.
+  - Andaverde J.A.
+  - Río J.A. del
+  container-title: Renewable Energy
+  ISSN: '0960-1481'
+  DOI: 10.1016/j.renene.2012.06.004
+  published_url: http://linkinghub.elsevier.com/retrieve/pii/S0960148112003540
+  abstract: Due the different possibilities for fit the Probability Density Functions
+    adjustable to a wind speed data set, a best fit selection criterion is developed
+    based on slope, intercept values and standard errors of Ordinary Linear Regression
+    model calculated from the probabilistic model and experimental data. Uncertainty
+    associated with measuring instruments is analyzed, and an interpretation is presented
+    in terms of the electric power generated. In addition, a methodology is proposed
+    to generate scenarios of energy production used in financial evaluations, which
+    is possible since the wind speed data used retain its uncertainty. The relevant
+    conclusions are that a sampling technique based on representative average wind
+    speeds does not reproduce the original distribution of wind speed data set, since
+    for the observed sample, the parameters of the fitted distributions vary depending
+    on sampling time. Accordingly, assessments based on this sample technique leads
+    to a resource underestimation.
+  year: 2013
+  issued:
+    date-parts:
+    - - '2013'
+  venue: Renewable Energy
+  page: 244-252
+  volume: '50'
+  language: English
+  citekey: 10.1016/j.renene.2012.06.004
+  id: 4235c122-be53-4bf3-a991-7e88e5a90dd8
+rodriguez2019:
+  title: Techno-Economic Feasibility Study of Small Wind Turbines in the Valley of
+    Mexico Metropolitan Area
+  authors:
+  - me
+  - Martinez Manuel
+  - Lopez-Villalobos Carlos
+  - Garcia Hector
+  - Campos-Amezcua Rafael
+  container-title: Energies
+  ISSN: 1996-1073
+  DOI: 10.3390/en12050890
+  published_url: https://www.mdpi.com/1996-1073/12/5/890
+  abstract: The use of small wind turbines (SWTs) is an alternative energy strategy
+    with increasing potential for satisfying in situ electrical demands and should
+    be studied to promote social penetration. The Valley of Mexico Metropolitan Area
+    (VMMA) has air pollution issues that need to be addressed. This has resulted in
+    programs for monitoring atmospheric variables, such as wind speed. By selecting
+    and using 3 years’ worth of available data, we developed a methodology to study
+    the technical and economic feasibility of using SWTs in the VMMA. To this end,
+    28 SWT models were assessed at 18 locations to estimate annual energy production.
+    In light of certain data characteristics, an adjustment to the power production
+    was proposed for the specific case of using SWTs. Cash flow analysis and annualized
+    net present value (ANPV) were used to determine economic feasibility for each
+    location; furthermore, electric home feeds in the VMMA were considered to model
+    local economic conditions. Similar wind conditions were observed within the VMMA;
+    however, only two wind turbine and location models provided positive ANPV values.
+    The extra annual benefit for each project was calculated by associating the cost
+    per mitigation of CO2 emissions, which may provide an economic strategy for promoting
+    the penetration of this technology.
+  year: 2019
+  issued:
+    date-parts:
+    - - '2019'
+  venue: Energies
+  page: '890'
+  issue: '5'
+  volume: '12'
+  language: English
+  citekey: 10.3390/en12050890
+  id: 0612eff2-bd1b-4838-bc15-4934819fce38
+rodriguez2016:
+  title: The importance of mean time in power resource assessment for small wind turbine
+    applications
+  authors:
+  - me
+  - Río J.A. del
+  - Jaramillo O.A.
+  container-title: Energy for Sustainable Development
+  ISSN: '0973-0826'
+  DOI: 10.1016/j.esd.2015.10.008
+  published_url: http://linkinghub.elsevier.com/retrieve/pii/S0973082615001039
+  abstract: Wind turbine for low power applications is a clean energy alternative
+    to contribute global warming mitigation. The correct description of wind speeds
+    is crucial to determine the economic viability of a wind power project. The sampling
+    technique used in resource assessment is supported by van der Hoven's work, which
+    concludes that minimum dispersion occurs between 0.1 and 2hours mean time. International
+    standards for wind turbine power characterization are also based on this work.
+    Here we analyze the influence of using different mean times over data dispersion
+    and wind resource assessment and analyze an adequate mean time for small wind
+    turbine (SWT) applications that contributes to the development of reliable resource
+    assessments. We found a maximum dispersion around 1minute mean time. The stable
+    wind conditions region was not found in the dispersion analysis presented here.
+    Using this time in SWT resource assessment will detect the largest amount of changes
+    in the time series that may contribute to power production. Resource assessments
+    calculated show that using 1 and 10minutes as mean times generates power resource
+    assessments with a difference around 17%, which may be a factor that prevents
+    SWT penetration. There exist at least two factors to obtain reliable power resource
+    assessment, the SWT selection and ensemble mean time.
+  year: 2016
+  issued:
+    date-parts:
+    - - '2016'
+      - '02'
+      - '01'
+  venue: Energy Sustain. Dev.
+  page: 32-38
+  volume: '30'
+  language: English
+  tags: Feasibility,Wind speed spectrum,sustainable development,Wind energy,Average
+    time
+  citekey: 10.1016/j.esd.2015.10.008
+  id: 1f61e8c8-ca80-4e3f-b7ef-52498d67e2b0
+munguia2023:
+  title: Improvement in output power assessment by wind turbine power curve modeling
+    based on data mining
+  authors:
+  - Munguia F. E.
+  - Robles M.
+  - Garcia H.
+  - me
+  container-title: AIP Advances
+  DOI: 10.1063/5.0146679
+  published_url: https://doi.org/10.1063/5.0146679
+  abstract: The accurate assessment of wind turbine output power is crucial in the
+    process of sizing wind farms. Typically, this assessment is based on the manufacturer’s
+    characteristic power curve, which relates wind speed to power output. However,
+    the manufacturer’s power curve is often an idealized representation that may not
+    accurately reflect the actual power output of the turbine under real-world conditions.
+    To address this limitation, various techniques have been employed to develop more
+    precise power curves, including curve fitting, artificial intelligence, probabilistic
+    models, and Gaussian processes. This paper introduces a novel method for modeling
+    the power curve that takes into account the specific conditions at the wind turbine’s
+    location. The method involves transforming wind speed data into a graph that resembles
+    the phase space commonly used in statistical mechanics. By applying the k-means
+    algorithm to this phase space, clusters of wind speeds can be identified. Furthermore,
+    the corresponding clusters of wind turbine output power can be determined based
+    on the identified wind speed clusters. These clusters of power data provide valuable
+    information for constructing a more accurate power curve using an adjustment function.
+    By utilizing this method, the authorss demonstrate a significant improvement in
+    the accuracy of power output estimation compared to relying solely on the manufacturer’s
+    power curve. The proposed approach considers the unique characteristics of the
+    wind speed data and incorporates them into the modeling process, resulting in
+    a more reliable representation of the turbine’s power output. This advancement
+    represents a significant step forward in optimizing the sizing of wind farms and
+    ensuring their efficient operation.
+  year: 2023
+  issued:
+    date-parts:
+    - - '2023'
+  venue: AIP Adv.
+  page: '075309'
+  issue: '7'
+  volume: '13'
+  citekey: 10.1063/5.0146679
+  id: 92799f70-3292-493c-bd60-6d3d563081f7
+morales2020:
+  title: Estimating wind speed and capacity factors in Mexico using reanalysis data
+  authors:
+  - Morales-Ruvalcaba C.F.
+  - me
+  - Martínez-Alvarado O.
+  - Drew D.R.
+  - Ramos E.
+  container-title: Energy for Sustainable Development
+  ISSN: '0973-0826'
+  DOI: 10.1016/j.esd.2020.08.006
+  published_url: https://doi.org/10.1016/j.esd.2020.08.006
+  abstract: In the fundamental stage of resource assessment, high-quality wind speed
+    measurements are required to estimate power production. However, this high-quality
+    data is not always available, and therefore the analysis of alternative sources
+    becomes essential. In this work, we analyze the ability of MERRA-2 to represent
+    wind speed characteristics at 24 anemometric stations in Mexico. The assessment
+    was carried out using the Pearson correlation coefficient between the observed
+    time series, and the obtained by interpolating bias-corrected reanalysis-estimated
+    wind speed to all locations for different time-averaging periods. Results showed
+    that the reanalysis' performance is not uniform throughout the country; it depends
+    on the time resolution, local orographic conditions, and the relationship between
+    the local flow and the large-scale circulation. Based on these results, the country
+    was subdivided into eight regions. The best-represented region was the Chivela
+    Pass, where the winds are tightly linked to the interaction between the large-scale
+    circulation and the local orography. The worst performing regions were located
+    where the land sea-mask and orography at the reanalysis' resolution may not be
+    accurate enough to reproduce the station's wind speeds. Reanalysis-estimated capacity
+    factors exhibit large interannual variability in some stations, which can have
+    significant consequences for the operation of individual wind farms and the power
+    grid. The results show that, while caution should be exercised when applying reanalyses
+    to wind resource assessment in Mexico, reanalysis wind power estimates can be
+    a valuable tool to investigate the feasibility and installed capacity requirements
+    for Mexico to meet its renewable energy targets.
+  year: 2020
+  issued:
+    date-parts:
+    - - '2020'
+      - '10'
+      - '01'
+  venue: Energy Sustain. Dev.
+  page: 158-166
+  issue: '3'
+  volume: '58'
+  language: English
+  citekey: 10.1016/j.esd.2020.08.006
+  id: d7c090e4-2772-4b29-91ec-c5a1ca6a36a0
+farias2022:
+  title: Distributed generation in low-voltage DC systems by wind energy in the Baja
+    California Peninsula, Mexico
+  authors:
+  - Miranda Rodolfo Farías
+  - Salgado-Herrera Nadia Maria
+  - me
+  - Rodríguez-Rodríguez Juan Ramon
+  - Robles Miguel
+  - Ruiz-Robles Dante
+  - Venegas-Rebollar Vicente
+  container-title: Energy
+  ISSN: 0360-5442
+  DOI: 10.1016/j.energy.2021.122530
+  published_url: https://doi.org/10.1016/j.energy.2021.122530
+  abstract: Mexico's national electric grid comprises ten regional systems, with one
+    isolated in the south of the Baja California Peninsula. In addition, providing
+    electricity access remains a challenge in the country. Therefore, distributed
+    renewable energy solutions are relevant to satisfy the electricity demand and
+    promote grid development. Distributed renewable energy access (DREA) based on
+    a wind energy conversion system integrated into low-voltage direct current (LVDC)
+    networks is presented. The DREA is analysed and simulated under wind speed conditions
+    measured and recorded for one year at Baja California Sur. A representative variability
+    is applied to five type-4 wind turbines based on wind speed turbulence intensity
+    analysis. The generated power is transferred through a bidirectional dual active
+    bridge converter, controlled by a novel small-signal model using a single closed-loop
+    proportional-integral control, owing to its modularity, power density, and ability
+    to transfer power from LVDC to high-voltage direct current. The effectiveness
+    and robustness of the proposed DREA are assessed via a complete mathematical model,
+    corroborated by the simulation results in MATLAB-Simulink®, and validated by experimental
+    results using the real-time simulator Opal-RT Technologies® and laboratory prototyping.
+    The results indicate a DC-link voltage compensation and integration of a power
+    capacity of 150 kW in the LVDC networks with an efficiency of 94%.
+  year: 2022
+  issued:
+    date-parts:
+    - - '2022'
+  venue: Energy
+  page: '122530'
+  volume: '242'
+  citekey: 10.1016/j.energy.2021.122530
+  id: 02572ae4-42d4-443f-9070-5f1971fada67
+mattu2022:
+  title: The impact of tropical cyclones on potential offshore wind farms
+  authors:
+  -   Mattu Kanzis L.
+  -   Bloomfield Hannah C.
+  -   Thomas Simon
+  -   Martínez-Alvarado Oscar
+  -   me
+  container-title: Energy for Sustainable Development
+  ISSN: '0973-0826'
+  DOI: 10.1016/j.esd.2022.02.005
+  published_url: https://doi.org/10.1016/j.esd.2022.02.005
+  abstract: The climate crisis has led to an increased interest in renewable energy,
+    and in wind energy in particular. Wind farms with the largest generating potential
+    are generally located offshore. In this study we consider the case of Mexico,
+    a sub-tropical country in North-America. Due to Mexico's location, offshore wind
+    farms (OWF) would be at risk of damage from strong winds associated with tropical
+    cyclones (TCs) in both the Pacific and the Gulf of Mexico basins. Thus, here we
+    ask whether there are any regions in Mexico combining a high generating potential
+    and a low risk from tropical cyclones. To answer this question, the ERA5 reanalysis
+    has been used to identify two sites on the Pacific coast and two sites in the
+    Gulf of Mexico with high wind power potential. Then, using the ERA5 reanalysis
+    and TC best-track observational data, the potential effects of four major hurricanes
+    and the climatological hazard posed by TC-related damaging winds on OWFs at those
+    sites have been investigated. The return period for TCs with near-surface winds
+    exceeding 50m s−1, a threshold associated with increased structural damage likelihood,
+    has been estimated at as low as 8 years for the Gulf of Mexico and above 64 years
+    for Pacific coast. Therefore, in terms of the magnitude of the TC-related hazard,
+    the Pacific coast sites are found to be preferred as locations for the development
+    of OWFs. These results are relevant for any planning of offshore wind energy in
+    Mexico, and the methodology applicable to any other sub-tropical region in which
+    the risk of tropical cyclones is present.
+  year: 2022
+  issued:
+    date-parts:
+    - - '2022'
+  venue: Energy Sustain. Dev.
+  page: 29-39
+  volume: '68'
+  citekey: 10.1016/j.esd.2022.02.005
+  id: c8880567-bd1f-489f-b004-a44fe5c041f2
+lopez2022:
+  title: Analysis of the influence of the wind speed profile on wind power production
+  authors:
+  - Lopez-Villalobos C.A.
+  - Martínez-Alvarado O.
+  - me
+  - Romero-Centeno R.
+  container-title: Energy Reports
+  ISSN: 2352-4847
+  DOI: 10.1016/j.egyr.2022.06.046
+  published_url: https://doi.org/10.1016/j.egyr.2022.06.046
+  abstract: The characterization of wind speed and its variability at a site is important
+    for wind resource assessment. The most readily available wind measurements are
+    at 10 m above ground level. These measurements can then be extrapolated vertically
+    to estimate wind power production. In this work, the Monin–Obukhov similarity
+    method was implemented to estimate the wind speed vertical profile within the
+    surface boundary layer for a southeast Mexican site, considering seasonal and
+    diurnal variations of the surface boundary layer stability parameters. Additionally,
+    a power-law method was implemented where the wind shear exponent was set following
+    the International Electrotechnical Commission (IEC) standard and using a variable
+    wind shear exponent. The results showed that the log-law and the variable wind
+    shear method produce better estimates than the IEC standard. The mean power production
+    was estimated at hub height (80 m above surface level) using anemometric data
+    from the Mexican Wind Atlas and then compared with that calculated using the equivalent
+    wind speed estimated from variable wind shear exponent and log-law model. No influence
+    of the vertical wind speed variation within and on top (up to 117.5 m) of the
+    surface boundary layer was found on the mean power production for a wind turbine
+    with a diameter of 90 m and a hub height of 80 m.
+  year: 2022
+  issued:
+    date-parts:
+    - - '2022'
+  venue: Energy Rep.
+  page: 8079-8092
+  volume: '8'
+  citekey: 10.1016/j.egyr.2022.06.046
+  id: 6a2f5ac3-2c43-40f6-aef5-cdf7b3846e45
+lopezv2020:
+  title: Effects of wind power spectrum analysis over resource assessment
+  authors:
+  - Lopez-Villalobos C.A.
+  - me
+  - Martínez-Alvarado O.
+  - Hernandez-Yepes J.G.
+  container-title: Renewable Energy
+  ISSN: '0960-1481'
+  DOI: 10.1016/j.renene.2020.11.147
+  published_url: https://doi.org/10.1016/j.renene.2020.11.147
+  abstract: Based on the Van der Hoven’s seminal work, wind power industry has adopted
+    the 10 min mean time as the proper sampling to estimate resource assessment. However,
+    research within the literature questions the generalization of the 10 min as a
+    standard measure of minima dispersion due to the particular geographic characteristics
+    where the measurements took place. In this work is analyzed the power spectrum
+    of a high-frequency wind speed time series and its influence over the resource
+    assessment in the region of La Ventosa, Oaxaca, Mexico. Power spectrum analysis
+    from a monthly, seasonal, and annual time series results show a defined synoptic-scale,
+    diurnal, and semi-diurnal variations, which changes in amplitude throughout the
+    year. To study the influence of power spectrum in wind resource assessment were
+    estimated and compared the capacity factors of a typical 2 MW wind turbine against
+    measured wind speed with 1, 5, 10, 60, and 360 min mean times, we found that a
+    maximum difference of 1.4 % . Resource assessment was also estimated using reanalysis
+    data and WRF results, finding similar to high-resolution estimations, highlighting
+    bias-corrected WRF performance, offering reliable results to model power performance
+    after a statistical correction.
+  year: 2020
+  issued:
+    date-parts:
+    - - '2020'
+      - '12'
+      - '09'
+  venue: Renew. Energy
+  page: 761-773
+  issue: '12'
+  volume: '167'
+  language: English
+  citekey: 10.1016/j.renene.2020.11.147
+  id: c856c298-dd51-410c-940f-f09cec2c70e3
+lopezV2022:
+  title: 'Wind Turbulence Intensity at La Ventosa, Mexico: A Comparative Study with
+    the IEC61400 Standards'
+  authors:
+  - Lopez-Villalobos C.A.
+  - me
+  - Campos-Amezcua R.
+  - Hernandez-Cruz Guillermo
+  - Jaramillo O.A.
+  - Mendoza J.L.
+  container-title: Energies
+  ISSN: 1996-1073
+  DOI: 10.3390/en11113007
+  published_url: https://www.mdpi.com/1996-1073/11/11/3007/htm
+  abstract: Wind speed turbulence intensity is a crucial parameter in designing the
+    structure of wind turbines. The IEC61400 considers the Normal Turbulence Model
+    (NTM) as a reference for fatigue load calculations for small and large wind turbines.
+    La Ventosa is a relevant region for the development of the wind power sector in
+    Mexico. However, in the literature, there are no studies on this important parameter
+    in this zone. Therefore, we present an analysis of the turbulence intensity to
+    improve the understanding of local winds and contribute to the development of
+    reliable technical solutions. In this work, we experimentally estimate the turbulence
+    intensity of the region and the wind shear exponent in terms of atmospheric stability
+    to analyze the relation of these design parameters with the recommended standard
+    for large and small wind turbines. The results showed that the atmosphere is strongly
+    convective and stable in most of the eleven months studied. The turbulence intensity
+    analysis showed that for a range of wind speeds between 2 and 24 m/s, some values
+    of the variable measured were greater than those recommended by the standard,
+    which corresponds to 388 hours of turbulence intensity being underestimated. This
+    may lead to fatigue loads and cause structural damage to the technologies installed
+    in the zone if they were not designed to operate in these wind speed conditions.
+  year: 2020
+  issued:
+    date-parts:
+    - - '2018'
+      - '11'
+      - '01'
+  venue: Energies
+  page: '3007'
+  issue: '11'
+  volume: '11'
+  language: English
+  citekey: 10.3390/en11113007
+  id: ff42c1c8-2cf3-4dbf-a8f5-9ef0c6625ad8
+HYepes2022:
+  title: Influence of spatial resolution in mesoscale modeling to reproduce wind power
+    production in southern Mexico
+  authors:
+  - Hernández-Yepes J.G.
+  - me
+  - Martínez-Alvarado O.
+  - Magaldi-Hermosillo A. V.
+  - Drew D.
+  container-title: Journal of Renewable and Sustainable Energy
+  DOI: 10.1063/5.0091384
+  published_url: https://doi.org/10.1063/5.0091384
+  abstract: Understanding near-surface wind variability is crucial to support wind
+    power penetration on national electrical grids. High-resolution numerical simulations
+    are often proposed as the best solution to study the fluctuation of wind resources.
+    We compare Weather Research and Forecasting (WRF) and Modern-Era Retrospective
+    Analysis for Research and Applications version 2 (MERRA-2) bias-corrected wind
+    speeds at hub height at different spatial resolutions and transform them to wind
+    power production using a logistic power curve fitted to wind power measurements;
+    the comparisons are based on error statistics and time series spectral analysis.
+    The results show that numerical models reproduce observed wind speeds with correlations
+    higher than 0.9 for WRF and 0.8 for MERRA-2. Moreover, annual observed wind power
+    is reproduced with a maximum difference from observations of 0.011. However, each
+    resolution reproduces the magnitudes of high-resolution periodicities differently
+    so that there is a clear relationship between grid size and signal variance at
+    high frequencies, as variance is indirectly proportional to frequency. This relationship
+    is expected for wind speed, but based on results, it can be associated also for
+    capacity factor sampled at hopublished_urly intervals. Therefore, the main benefit of high
+    spatial resolution lies in the added variance in frequencies at sub-daily time
+    scales. The study of the added value of high-resolution simulations in this region
+    contributes to current efforts to develop reliable forecasting tools and strategies
+    to support the development of wind power as a reliable energy source.
+  year: 2022
+  issued:
+    date-parts:
+    - - '2022'
+  venue: J. Renew. Sustain. Energy
+  page: '043303'
+  issue: '4'
+  volume: '14'
+  citekey: 10.1063/5.0091384
+  id: 0fae267c-0d31-4956-b919-6295058c1e71
+garcia2018:
+  title: Harmonic Modelling of the Wind Turbine Induction Generator for Dynamic Analysis
+    of Power Quality
+  authors:
+  - García Héctor
+  - Segundo Juan
+  - me
+  - Campos-Amezcua Rafael
+  - Jaramillo Oscar
+  container-title: Energies
+  ISSN: 1996-1073
+  DOI: 10.3390/en11010104
+  published_url: http://www.mdpi.com/1996-1073/11/1/104/htm
+  abstract: Given the increasing integration of wind-based generation systems into
+    the electric grid, efforts have been made to deal with the problem of power quality
+    associated with the intermittent nature of these systems. This paper presents
+    a new modelling approach oriented towards harmonic distortion analysis of the
+    induction machine for wind power applications. The model is developed using companion
+    harmonic circuit modelling, which is a natural approach for analysis of the adverse
+    effects of harmonic distortion in electric power systems, and represents an easier
+    solution method than the well known dynamic harmonic domain, since it solves algebraic
+    equations instead of state-space differential equations. The structure of the
+    companion circuits simplifies both the formulation and solution for power systems
+    with wind-based generation systems. This approach is especially useful for analysis
+    of the harmonic interaction in transient and steady states between the wind power
+    generator and the power system, whose interconnection is made through electronic
+    converters. The proposed model allows us to compute the dynamics of the wind turbine,
+    which are influenced by disturbances such as changes in the wind velocity, voltage
+    fluctuations, electric waveform distortion, and mechanical vibrations, among other
+    factors. Moreover, the cross-coupling between harmonic components at different
+    frequencies is considered. The proposed model represents an integral framework
+    of the electrical and mechanical subsystems of a wind turbine, allowing for analysis
+    of the interactions between them, and understanding power quality degradation
+    behaviour as well as causes and consequences, while also giving useful information
+    on the field of simulation and control. To test the performance of the proposed
+    model, a test power system is used to obtain the behaviour of a wind turbine induction
+    generator in response to typical power quality disturbances, i.e., harmonic distortion,
+    and voltage sags and swells. Then, the dynamics of the variables considering their
+    harmonic interactions are analysed.
+  year: 2018
+  issued:
+    date-parts:
+    - - '2018'
+      - '01'
+      - '03'
+  venue: Energies
+  page: '104'
+  issue: '1'
+  volume: '11'
+  language: English
+  citekey: 10.3390/en11010104
+  id: 5ed75dd8-aa20-4bb9-952d-568cfd99da41
+Canul2022:
+  title: Potential zones for offshore wind power development in the Gulf of Mexico
+    using reanalyses data and capacity factor seasonal analysis
+  authors:
+  - Canul-Reyes D.A.
+  - me
+  - Jarquin-Laguna A.
+  container-title: Energy for Sustainable Development
+  ISSN: '0973-0826'
+  DOI: 10.1016/j.esd.2022.03.008
+  published_url: https://doi.org/10.1016/j.esd.2022.03.008
+  abstract: 'Mexico is an attractive candidate for offshore wind energy development
+    due to its geographical location with extensive coasts in the Pacific Ocean and
+    Mexico''s Gulf. Although potential offshore wind areas have been geographically
+    assessed, an evaluation of the seasonal variations of the capacity factors has
+    not been considered for the feasibility of the locations. This research identifies
+    potential zones for offshore wind development in the Gulf of Mexico, implementing
+    geographical restrictions such as the Economic Exclusive Zone, distance from the
+    coast, protected areas, bathymetry, and capacity factor seasonality. Wind speeds
+    were obtained from 39 years of reanalyses historical data and two reference wind
+    turbines of 5 and 10 MW were included in the analysis. Three potential areas were
+    identified from the results: the northeast Tamaulipas, the western Campeche, and
+    the northern Yucatan. Monthly mean capacity factors above 45% were estimated from
+    October to June, with the maximum values near 60% between March and April. Conversely,
+    minimum values were observed from July to September but consistently higher than
+    30%. The analyzed zones show suitable technical conditions for offshore wind development.
+    Further analysis is needed to validate the wind speed conditions, in addition
+    to the evaluation of economic factors, the study of extreme weather conditions
+    like tropical cyclones as well as characteristics in the intertropical region.'
+  year: 2022
+  issued:
+    date-parts:
+    - - '2022'
+  venue: Energy Sustain. Dev.
+  page: 211-219
+  volume: '68'
+  language: English
+  note: 'Times Cited in Web of Science Core Collection:  3Total Times Cited:  3Cited
+    Reference Count:  34'
+  tags: ERA5,MERRA2,Capacity factor analysis,Inter annual variability,Wind resource
+    assessment,Offshore wind in the Gulf of Mexico,ENERGY,STABILITY,LAW
+  citekey: 10.1016/j.esd.2022.03.008
+  id: b9cd672f-7c4d-49da-b5e7-ffdc1a5cc6f8
