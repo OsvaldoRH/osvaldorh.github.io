@@ -6,14 +6,6 @@ section-divs: false
 keep-md: true
 ---
 
----
-title: "Research"
-echo: false
-jupyter: python3
-section-divs: false
-keep-md: true
----
-
 ```{python}
 import yaml
 from IPython.display import display, Markdown, HTML

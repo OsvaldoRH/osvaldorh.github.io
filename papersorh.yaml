@@ -614,3 +614,20 @@ Canul2022:
     assessment,Offshore wind in the Gulf of Mexico,ENERGY,STABILITY,LAW
   citekey: 10.1016/j.esd.2022.03.008
   id: b9cd672f-7c4d-49da-b5e7-ffdc1a5cc6f8
+Magana2023:
+  title: Analysis of Seasonal Variability and Complementarity of Wind and Solar Resources
+    in Mexico
+  year: 2023
+  authors:
+  - Magana-Gonzalez Roberto
+  - me
+  - Canul-Reyes Diego
+  venue: Sustainable Energy Technologies and Assessments
+  ISSN: 2213-1396
+  DOI: 10.1016/j.seta.2023.103456
+  published_url: "https://doi.org/10.1016/j.seta.2023.103456"
+  issued:
+    date-parts:
+    - - 2023
+  citekey: 10.2139/ssrn.4510329
+  id: 6d8a10bf-35d6-4585-9e6c-22880cdb8884

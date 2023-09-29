@@ -5,14 +5,6 @@ section-divs: false
 keep-md: true
 ---
 
----
-title: "Research"
-echo: false
-jupyter: python3
-section-divs: false
-keep-md: true
----
-
 
 
 
@@ -22,6 +14,10 @@ keep-md: true
 
 ```{=html}
 <ul class='list-group list-group-flush'><li class='list-group-item'>Munguia F. E., Robles M., Garcia H., and <strong>Rodríguez Hernández Osvaldo</strong>. (2023) "Improvement in output power assessment by wind turbine power curve modeling based on data mining." <em>AIP Adv.</em><br><a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1063/5.0146679" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-archive" role='img' aria-label='Published'></i>
+        Published
+    </a></li>
+<li class='list-group-item'>Magana-Gonzalez Roberto, <strong>Rodríguez Hernández Osvaldo</strong>, and Canul-Reyes Diego. (2023) "Analysis of Seasonal Variability and Complementarity of Wind and Solar Resources in Mexico." <em>Sustainable Energy Technologies and Assessments</em><br><a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1016/j.seta.2023.103456" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
     </a></li></ul>
