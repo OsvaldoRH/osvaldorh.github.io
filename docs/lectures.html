@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Clases</title>
+<title>De interés</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,12 +85,27 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+ <span class="menu-text">Sobre mi</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./lectures.html" rel="" target="" aria-current="page">
- <span class="menu-text">Clases</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Cursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">    
+        <li>
+    <a class="dropdown-item" href="./lectures.html" rel="" target="">
+ <span class="dropdown-text">Recursos Digitales (de todo un poco)</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./lier.html" rel="" target="">
+ <span class="dropdown-text">Eolica (Licenciatura)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posgrado.html" rel="" target="">
+ <span class="dropdown-text">Modelos (Posgrado)</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
@@ -127,65 +142,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contenido</h2>
-   
-  <ul>
-  <li><a href="#licenciatura-en-ingeniería-en-energías-renovables" id="toc-licenciatura-en-ingeniería-en-energías-renovables" class="nav-link active" data-scroll-target="#licenciatura-en-ingeniería-en-energías-renovables">Licenciatura en Ingeniería en Energías Renovables</a>
-  <ul>
-  <li><a href="#eólica" id="toc-eólica" class="nav-link" data-scroll-target="#eólica">Eólica</a>
-  <ul class="collapse">
-  <li><a href="#recursos" id="toc-recursos" class="nav-link" data-scroll-target="#recursos">Recursos</a>
-  <ul class="collapse">
-  <li><a href="#irena" id="toc-irena" class="nav-link" data-scroll-target="#irena">IRENA</a></li>
-  <li><a href="#gwec" id="toc-gwec" class="nav-link" data-scroll-target="#gwec">GWEC</a></li>
-  <li><a href="#global-wind-energy-atlas" id="toc-global-wind-energy-atlas" class="nav-link" data-scroll-target="#global-wind-energy-atlas">Global Wind Energy Atlas</a></li>
-  <li><a href="#obtren" id="toc-obtren" class="nav-link" data-scroll-target="#obtren">OBTREN</a></li>
-  </ul></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a>
-  <ul class="collapse">
-  <li><a href="#sesión-1---elementos-python" id="toc-sesión-1---elementos-python" class="nav-link" data-scroll-target="#sesión-1---elementos-python">Sesión 1 - Elementos Python</a></li>
-  <li><a href="#sesión-2---pandas" id="toc-sesión-2---pandas" class="nav-link" data-scroll-target="#sesión-2---pandas">Sesión 2 - Pandas</a></li>
-  <li><a href="#sesión-3---matplotlib" id="toc-sesión-3---matplotlib" class="nav-link" data-scroll-target="#sesión-3---matplotlib">Sesión 3 - Matplotlib</a></li>
-  </ul></li>
-  <li><a href="#sesiones" id="toc-sesiones" class="nav-link" data-scroll-target="#sesiones">Sesiones</a>
-  <ul class="collapse">
-  <li><a href="#sesión-1---contenido-general-del-curso" id="toc-sesión-1---contenido-general-del-curso" class="nav-link" data-scroll-target="#sesión-1---contenido-general-del-curso">Sesión 1 - Contenido general del curso</a></li>
-  <li><a href="#sesión-2---energía-eólica-en-méxico-y-el-mundo" id="toc-sesión-2---energía-eólica-en-méxico-y-el-mundo" class="nav-link" data-scroll-target="#sesión-2---energía-eólica-en-méxico-y-el-mundo">Sesión 2 - Energía eólica en México y el Mundo</a></li>
-  <li><a href="#sesión-3---conceptos-básicos" id="toc-sesión-3---conceptos-básicos" class="nav-link" data-scroll-target="#sesión-3---conceptos-básicos">Sesión 3 - Conceptos Básicos</a></li>
-  <li><a href="#sesión-4---patrones-de-circulación-del-viento" id="toc-sesión-4---patrones-de-circulación-del-viento" class="nav-link" data-scroll-target="#sesión-4---patrones-de-circulación-del-viento">Sesión 4 - Patrones de circulación del viento</a></li>
-  <li><a href="#sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" id="toc-sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" class="nav-link" data-scroll-target="#sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico">Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México</a></li>
-  <li><a href="#sesión-6---potencia-en-el-viento" id="toc-sesión-6---potencia-en-el-viento" class="nav-link" data-scroll-target="#sesión-6---potencia-en-el-viento">Sesión 6 - Potencia en el viento</a></li>
-  <li><a href="#sesión-7---modelos-de-capa-límite" id="toc-sesión-7---modelos-de-capa-límite" class="nav-link" data-scroll-target="#sesión-7---modelos-de-capa-límite">Sesión 7 - Modelos de capa límite</a></li>
-  <li><a href="#sesión-9---histogramas-y-fdp" id="toc-sesión-9---histogramas-y-fdp" class="nav-link" data-scroll-target="#sesión-9---histogramas-y-fdp">Sesión 9 - Histogramas y FDP</a></li>
-  <li><a href="#sesión-10---ajuste-de-fdp-en-python" id="toc-sesión-10---ajuste-de-fdp-en-python" class="nav-link" data-scroll-target="#sesión-10---ajuste-de-fdp-en-python">Sesión 10 - Ajuste de FDP en Python</a></li>
-  <li><a href="#sesión-11---evaluación-del-recurso-eólico" id="toc-sesión-11---evaluación-del-recurso-eólico" class="nav-link" data-scroll-target="#sesión-11---evaluación-del-recurso-eólico">Sesión 11 - Evaluación del recurso eólico</a></li>
-  <li><a href="#sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." id="toc-sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." class="nav-link" data-scroll-target="#sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python.">Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.</a></li>
-  <li><a href="#sesión-13---costo-de-la-energía" id="toc-sesión-13---costo-de-la-energía" class="nav-link" data-scroll-target="#sesión-13---costo-de-la-energía">Sesión 13 - Costo de la energía</a></li>
-  <li><a href="#sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" id="toc-sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" class="nav-link" data-scroll-target="#sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python">Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python</a></li>
-  <li><a href="#sesión-15---evaluación-del-recurso---paso-a-paso" id="toc-sesión-15---evaluación-del-recurso---paso-a-paso" class="nav-link" data-scroll-target="#sesión-15---evaluación-del-recurso---paso-a-paso">Sesión 15 - Evaluación del recurso - Paso a Paso</a></li>
-  <li><a href="#sesión-16---introducción-a-aerodinámica" id="toc-sesión-16---introducción-a-aerodinámica" class="nav-link" data-scroll-target="#sesión-16---introducción-a-aerodinámica">Sesión 16 - Introducción a aerodinámica</a></li>
-  </ul></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#posgrado-ingeniería-en-energía---unam" id="toc-posgrado-ingeniería-en-energía---unam" class="nav-link" data-scroll-target="#posgrado-ingeniería-en-energía---unam">Posgrado Ingeniería en Energía - UNAM</a>
-  <ul>
-  <li><a href="#modelos-meteorológicos-en-energía-eólica." id="toc-modelos-meteorológicos-en-energía-eólica." class="nav-link" data-scroll-target="#modelos-meteorológicos-en-energía-eólica.">Modelos Meteorológicos en energía eólica.</a>
-  <ul class="collapse">
-  <li><a href="#recursos-1" id="toc-recursos-1" class="nav-link" data-scroll-target="#recursos-1">Recursos:</a></li>
-  <li><a href="#física" id="toc-física" class="nav-link" data-scroll-target="#física">Física</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Clases</h1>
+<h1 class="title">De interés</h1>
 </div>
 
 
@@ -200,160 +165,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="licenciatura-en-ingeniería-en-energías-renovables" class="level1">
-<h1>Licenciatura en Ingeniería en Energías Renovables</h1>
-<p>En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.</p>
-<hr>
-<section id="eólica" class="level2">
-<h2 class="anchored" data-anchor-id="eólica">Eólica</h2>
-<section id="recursos" class="level3">
-<h3 class="anchored" data-anchor-id="recursos">Recursos</h3>
-<div class="card-group">
-    <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-        <h5 class="card-title anchored">Primary card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-        <h5 class="card-title anchored">Primary card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-        <h5 class="card-title anchored">Primary card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-</div>
-<section id="irena" class="level4">
-<h4 class="anchored" data-anchor-id="irena">IRENA</h4>
-<iframe frameborder="100" width="100%" height="300" src="https://www.irena.org" title="IRENA"></iframe>
-</section>
-<section id="gwec" class="level4">
-<h4 class="anchored" data-anchor-id="gwec">GWEC</h4>
-<iframe width="100%" height="300" src="https://gwec.net" title="Global Wind Energu Council"></iframe>
-</section>
-<section id="global-wind-energy-atlas" class="level4">
-<h4 class="anchored" data-anchor-id="global-wind-energy-atlas">Global Wind Energy Atlas</h4>
-<iframe width="100%" height="300" src="https://globalwindatlas.info/es" title="Global Wind Energy Atlas"></iframe>
-</section>
-<section id="obtren" class="level4">
-<h4 class="anchored" data-anchor-id="obtren">OBTREN</h4>
-<iframe width="100%" height="300" src="https://obtrenmx.org" title="OBTREN"></iframe>
-<p><a href="https://www.gob.mx/sener/articulos/programa-de-desarrollo-del-sistema-electrico-nacional-2023-2037">PRODESEN - SENER - 2023 -2037.</a></p>
-<p><a href="https://www.gob.mx/sener/documentos/mapas-de-ruta-tecnologica-de-energias-renovables">Mapa de ruta de la energía eólica en México</a></p>
-<hr>
-</section>
-</section>
-<section id="python" class="level3">
-<h3 class="anchored" data-anchor-id="python">Python</h3>
-<section id="sesión-1---elementos-python" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-1---elementos-python">Sesión 1 - Elementos Python</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/sjF3NRMaUIo" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-2---pandas" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-2---pandas">Sesión 2 - Pandas</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/Rt4EVcocMLQ" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-3---matplotlib" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-3---matplotlib">Sesión 3 - Matplotlib</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/aZO3JKYa6Cg" role="button">Clase grabada</a></p>
-<hr>
-</section>
-</section>
-<section id="sesiones" class="level3">
-<h3 class="anchored" data-anchor-id="sesiones">Sesiones</h3>
-<section id="sesión-1---contenido-general-del-curso" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-1---contenido-general-del-curso">Sesión 1 - Contenido general del curso</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/sjF3NRMaUIo" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-2---energía-eólica-en-méxico-y-el-mundo" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-2---energía-eólica-en-méxico-y-el-mundo">Sesión 2 - Energía eólica en México y el Mundo</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/Rt4EVcocMLQ" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-3---conceptos-básicos" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-3---conceptos-básicos">Sesión 3 - Conceptos Básicos</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/aZO3JKYa6Cg" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-4---patrones-de-circulación-del-viento" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-4---patrones-de-circulación-del-viento">Sesión 4 - Patrones de circulación del viento</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/2ImO2zu6NqQ" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-5---patrones-de-circulación-del-viento---ejemplo-era5-y-energía-eólica-en-el-golfo-de-méxico">Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/8hVEa3Ml6RA" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-6---potencia-en-el-viento" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-6---potencia-en-el-viento">Sesión 6 - Potencia en el viento</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/nnVpddRlITE" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-7---modelos-de-capa-límite" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-7---modelos-de-capa-límite">Sesión 7 - Modelos de capa límite</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/pbRjzFxV_gQ" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-9---histogramas-y-fdp" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-9---histogramas-y-fdp">Sesión 9 - Histogramas y FDP</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/We23W10H4_M" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-10---ajuste-de-fdp-en-python" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-10---ajuste-de-fdp-en-python">Sesión 10 - Ajuste de FDP en Python</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/awknm1BcS9E" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-11---evaluación-del-recurso-eólico" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-11---evaluación-del-recurso-eólico">Sesión 11 - Evaluación del recurso eólico</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/Z8RjZWY5xzU" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python." class="level4">
-<h4 class="anchored" data-anchor-id="sesión-12---ejemplo-de-evaluación-del-recurso-eólico-con-python.">Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/SvrZce2KJ6M" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-13---costo-de-la-energía" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-13---costo-de-la-energía">Sesión 13 - Costo de la energía</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/XyK3yQRJ0sU" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-14---evaluación-del-recurso---uso-directo-de-los-datos---python">Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/Kt-Zdmv4m54" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-15---evaluación-del-recurso---paso-a-paso" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-15---evaluación-del-recurso---paso-a-paso">Sesión 15 - Evaluación del recurso - Paso a Paso</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/mkgq4UHfCa0" role="button">Clase grabada</a></p>
-</section>
-<section id="sesión-16---introducción-a-aerodinámica" class="level4">
-<h4 class="anchored" data-anchor-id="sesión-16---introducción-a-aerodinámica">Sesión 16 - Introducción a aerodinámica</h4>
-<p><a class="btn btn-primary btn-sm" href="https://youtu.be/uHuxLdSzF9I" role="button">Clase grabada</a></p>
-<hr>
-</section>
-</section>
-</section>
-</section>
-<section id="posgrado-ingeniería-en-energía---unam" class="level1">
-<h1>Posgrado Ingeniería en Energía - UNAM</h1>
-<section id="modelos-meteorológicos-en-energía-eólica." class="level2">
-<h2 class="anchored" data-anchor-id="modelos-meteorológicos-en-energía-eólica.">Modelos Meteorológicos en energía eólica.</h2>
-<section id="recursos-1" class="level3">
-<h3 class="anchored" data-anchor-id="recursos-1">Recursos:</h3>
 <ol type="1">
-<li>ECMWF ERA5</li>
-<li>NACR WRF</li>
-<li>Xarray</li>
-<li>Basemap</li>
-<li>Cartopy</li>
+<li>Bidi UNAM - ¿Cómo dar de alta una cuenta en BiDi UNAM?</li>
 </ol>
-</section>
-<section id="física" class="level3">
-<h3 class="anchored" data-anchor-id="física">Física</h3>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/x0SDpmhstdc?si=5uKoFOdmR6woZDy8" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ol start="2" type="1">
+<li>Aula virtual - Distribución del contenido del classroom</li>
+</ol>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/rBTm0LJrvVY?si=n9vAIiLkFnLLHWYJ" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ol start="3" type="1">
+<li>Zoom CUAIED - Dar de alta una cuenta de Zoom CUAIED</li>
+</ol>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/NSml9MQtd4A?si=p0xsX7NOV955UsM3" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ol start="4" type="1">
+<li>Slide pilot - Presentaciones usando PDF’s con Slide pilot</li>
+</ol>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/QOZzjSLsFWw?si=RofyLx7GdyjSa6Mn" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ol start="5" type="1">
+<li>OBS - Live streamer gratuito</li>
+</ol>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/bv4kXlJw3f0?si=8HQXGIIXLiJ5oRdq" width="400" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
-</section>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

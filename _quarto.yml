@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - Practica_01.pdf
+    - Practica_02.pdf
 
 website:
   #title: "osroh - website"
@@ -10,9 +13,16 @@ website:
     logo: IERBlanco.png
     search: true
     left:
-      - text: "Home"
+      - text: "Sobre mi"
         file: index.qmd
-      - lectures.qmd
+      - text: "Cursos"
+        menu:
+          - text: "Recursos Digitales (de todo un poco)"
+            href: lectures.qmd
+          - text: "Eolica (Licenciatura)"
+            href: lier.qmd
+          - text: "Modelos (Posgrado)"
+            href: posgrado.qmd
       - research.qmd
       - thesis.qmd
     tools:

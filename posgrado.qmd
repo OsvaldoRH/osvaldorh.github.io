@@ -1,0 +1,81 @@
+---
+title: "Repositorio Digital"
+format: html
+---
+
+# Análisis de modelos meteorológicos en energía eólica
+
+En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.
+
+-----------------------
+## Posgrado Ingeniería en Energía - UNAM
+
+
+## Modelos Meteorológicos en energía eólica.
+
+### Recursos:
+
+
+1. [ECMWF ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)
+2. [NACR WRF](https://www.mmm.ucar.edu/models/wrf)
+3. [Xarray](https://docs.xarray.dev/en/stable/)
+4. [Basemap](https://basemaptutorial.readthedocs.io/en/latest/)
+5. [Cartopy](https://mappinggis.com/2022/10/primeros-pasos-con-cartopy-paquete-de-python-para-crear-mapas/)
+
+### Física
+
+
+## Sesiones
+
+
+### Sesión 1 - Introducción al curso
+<a class="btn btn-primary btn-sm" href="https://youtu.be/T1Wez6biYaA?si=k5F51QcEbmIhY20Z" role="button">Clase grabada</a>
+
+
+
+### Sesión 2 - Física en la atmósfera - parte 1
+<a class="btn btn-primary btn-sm" href="https://youtu.be/GNZ2hRBZIIg?si=EddjQyF8vlX8_WLF" role="button">Clase grabada</a>
+
+
+
+### Sesión 3 - Física en la atmósfera - parte 2
+<a class="btn btn-primary btn-sm" href="https://youtu.be/XHY7_1i4jIQ?si=jNy5fBldmeTjDAdC" role="button">Clase grabada</a>
+
+
+
+### Sesión 4 - El clima como sistema complejo
+
+<a class="btn btn-primary btn-sm" href="https://youtu.be/xJyrPW_lWKY?si=YavkA5lgnolQrY2-" role="button">Clase grabada</a>
+
+
+### Sesión 5 - Correlación
+<a class="btn btn-primary btn-sm" href="https://youtu.be/Fk_TbEJgaAA?si=9YQuluCXpi5jE9Ew" role="button">Clase grabada</a>
+
+
+
+### Sesión 6 - Evaluación del recurso eólico
+<a class="btn btn-primary btn-sm" href="https://youtu.be/s8_W7gh03xc?si=QA79-fU30b0vvG-I" role="button">Clase grabada</a>
+
+
+
+### Sesión 7 - Ejemplo de evaluación del recurso eólico
+<a class="btn btn-primary btn-sm" href="https://youtu.be/DmtTJ2IPCsM?si=yfgI8cGCd_o9RsW2" role="button">Clase grabada</a>
+
+
+
+### Sesión 8 - Proyecciónes y datums
+<a class="btn btn-primary btn-sm" href="https://youtu.be/r0BbRPwAOdM?si=vCFrxq4TrkmyYljQ" role="button">Clase grabada</a>
+
+
+
+### Sesión 9 - Mapas en python
+<a class="btn btn-primary btn-sm" href="https://youtu.be/5dPrArFuJwA?si=locrOldU1yTmyTB9" role="button">Clase grabada</a>
+
+
+
+### Sesión 10 - FDP e histogramas
+<a class="btn btn-primary btn-sm" href="https://youtu.be/zv8WZ5-DY_E?si=RXmp9ISj6hOVH5nH" role="button">Clase grabada</a>
+
+
+### Sesión 11 - NetCDF's y MERRA2
+<a class="btn btn-primary btn-sm" href="https://youtu.be/zkSzqc9gKP0?si=Cgc3HhXyD8VO6f8_" role="button">Clase grabada</a>

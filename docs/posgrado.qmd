@@ -1,0 +1,24 @@
+---
+title: "Posgrado"
+format: html
+---
+
+# Análisis de modelos meteorológicos en energía eólica
+
+En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.
+
+-----------------------
+# Posgrado Ingeniería en Energía - UNAM
+
+
+## Modelos Meteorológicos en energía eólica.
+
+### Recursos:
+
+1. ECMWF ERA5
+2. NACR WRF
+3. Xarray
+4. Basemap
+5. Cartopy
+
+### Física
