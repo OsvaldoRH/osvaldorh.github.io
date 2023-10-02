@@ -25,6 +25,8 @@ website:
             href: posgrado.qmd
       - research.qmd
       - thesis.qmd
+      #- difusion.qmd
+      #- divulgacion.qmd
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -34,6 +36,8 @@ website:
             url:  https://code.com
           - text: Report a Bug
             url:  https://bugs.com
+      - icon: youtube
+        href: https://www.youtube.com/@osvaldorodriguezhernandez5715/featured
   page-footer: 
     background: primary
     left: "Copyright 2023, Osvaldo Rodríguez. "

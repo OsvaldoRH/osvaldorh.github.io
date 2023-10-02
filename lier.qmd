@@ -178,7 +178,7 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
 
 ## Prácticas
 Práctica 1
-{{< pdf Practica_01.pdf width=600 height=400 >}}
+{{< pdf Practica_01.pdf width=100% height=400 >}}
 
 Práctica 2
-{{< pdf Practica_02.pdf width=600 height=400 >}}
+{{< pdf Practica_02.pdf width=100% height=400 >}}
