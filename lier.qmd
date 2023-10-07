@@ -176,6 +176,29 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
 <a class="btn btn-primary btn-sm" href="https://youtu.be/uHuxLdSzF9I" role="button">Clase grabada</a>
 
 
+
+### Sesión 17 - Introducción a la aerodinámica - Parte 2
+<a class="btn btn-primary btn-sm" href="https://youtu.be/ipwTsatrOZ0" role="button">Clase grabada</a>
+
+### Sesión 18 - Disco actuador unidimiensional
+<a class="btn btn-primary btn-sm" href="https://youtu.be/B5BrQt11qPc" role="button">Clase grabada</a>
+
+### Sesión 19 - Disco actuador con rotación de estela
+<a class="btn btn-primary btn-sm" href="https://youtu.be/mfFVhRiGk80" role="button">Clase grabada</a>
+
+### Sesión 20 - Teoría de elemento de pala - Parte 1
+<a class="btn btn-primary btn-sm" href="https://youtu.be/BQEy0skfxGU" role="button">Clase grabada</a>
+
+### Sesión 21 - Teoría de elemento de pala - Parte 2 - Diseño de aerogeneradores
+<a class="btn btn-primary btn-sm" href="https://youtu.be/aRaWigVd-Eg" role="button">Clase grabada</a>
+
+
+### Sesión 22 - Estelas y granjas eólicas
+<a class="btn btn-primary btn-sm" href="https://youtu.be/JeitH_etqvw" role="button">Clase grabada</a>
+
+
+
+
 ## Prácticas
 Práctica 1
 {{< pdf Practica_01.pdf width=100% height=400 >}}
