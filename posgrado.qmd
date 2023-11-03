@@ -26,56 +26,74 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
 
 
 ## Sesiones
+```{=html}
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 1em;
+    }
 
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 1em;
+    }
 
-### Sesión 1 - Introducción al curso
-<a class="btn btn-primary btn-sm" href="https://youtu.be/T1Wez6biYaA?si=k5F51QcEbmIhY20Z" role="button">Clase grabada</a>
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+    }
 
+    .video-grid h3 {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
 
+    @media (min-width: 768px) {
+      .video-grid {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-grid">
+    <iframe src="https://www.youtube.com/embed/T1Wez6biYaA?si=perBKtw1N_KF0SnS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3> Sesión 1 - Introducción al curso </h3>
 
-### Sesión 2 - Física en la atmósfera - parte 1
-<a class="btn btn-primary btn-sm" href="https://youtu.be/GNZ2hRBZIIg?si=EddjQyF8vlX8_WLF" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/GNZ2hRBZIIg?si=EklKbDnSQ9oa8uXc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 2 - Física en la atmósfera - parte 1</h3>
 
+    <iframe src="https://www.youtube.com/embed/XHY7_1i4jIQ?si=uVbFUgTpV--DTDi1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 3 - Física en la atmósfera - parte 2</h3>
 
+    <iframe src="https://www.youtube.com/embed/xJyrPW_lWKY?si=omB2HyRf641wLIyR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 4 - El clima como sistema complejo</h3>
 
-### Sesión 3 - Física en la atmósfera - parte 2
-<a class="btn btn-primary btn-sm" href="https://youtu.be/XHY7_1i4jIQ?si=jNy5fBldmeTjDAdC" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/Fk_TbEJgaAA?si=p2_BHGn9H9tkeu1y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 5 - Correlación</h3>
 
+    <iframe src="https://www.youtube.com/embed/s8_W7gh03xc?si=plSy8KB4pGHEcefa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 6 - Evaluación del recurso eólico</h3>
 
+    <iframe src="https://www.youtube.com/embed/DmtTJ2IPCsM?si=sKFdjawLo0M1F_gt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 7 - Ejemplo de evaluación del recurso eólico</h3>
 
-### Sesión 4 - El clima como sistema complejo
+    <iframe src="https://www.youtube.com/embed/r0BbRPwAOdM?si=h0E0qoR2Yp1oxbkL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 8 - Proyecciónes y datums</h3>
 
-<a class="btn btn-primary btn-sm" href="https://youtu.be/xJyrPW_lWKY?si=YavkA5lgnolQrY2-" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/5dPrArFuJwA?si=DYViZX7KWB8MC63M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 9 - Mapas en python</h3>
 
+    <iframe src="https://www.youtube.com/embed/zv8WZ5-DY_E?si=chNH9R6fWw1YQy5e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 10 - FDP e histogramas</h3>
 
-### Sesión 5 - Correlación
-<a class="btn btn-primary btn-sm" href="https://youtu.be/Fk_TbEJgaAA?si=9YQuluCXpi5jE9Ew" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/zkSzqc9gKP0?si=2Hn13pJNM4ytWX-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 11 - NetCDF's y MERRA2</h3>
 
-
-
-### Sesión 6 - Evaluación del recurso eólico
-<a class="btn btn-primary btn-sm" href="https://youtu.be/s8_W7gh03xc?si=QA79-fU30b0vvG-I" role="button">Clase grabada</a>
-
-
-
-### Sesión 7 - Ejemplo de evaluación del recurso eólico
-<a class="btn btn-primary btn-sm" href="https://youtu.be/DmtTJ2IPCsM?si=yfgI8cGCd_o9RsW2" role="button">Clase grabada</a>
-
-
-
-### Sesión 8 - Proyecciónes y datums
-<a class="btn btn-primary btn-sm" href="https://youtu.be/r0BbRPwAOdM?si=vCFrxq4TrkmyYljQ" role="button">Clase grabada</a>
-
-
-
-### Sesión 9 - Mapas en python
-<a class="btn btn-primary btn-sm" href="https://youtu.be/5dPrArFuJwA?si=locrOldU1yTmyTB9" role="button">Clase grabada</a>
-
-
-
-### Sesión 10 - FDP e histogramas
-<a class="btn btn-primary btn-sm" href="https://youtu.be/zv8WZ5-DY_E?si=RXmp9ISj6hOVH5nH" role="button">Clase grabada</a>
-
-
-### Sesión 11 - NetCDF's y MERRA2
-<a class="btn btn-primary btn-sm" href="https://youtu.be/zkSzqc9gKP0?si=Cgc3HhXyD8VO6f8_" role="button">Clase grabada</a>
+  </div>
+</body>
+</html>
+```

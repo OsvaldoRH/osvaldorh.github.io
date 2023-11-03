@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "lier.html",
+    "href": "lier.html",
+    "title": "Repositorio digital",
+    "section": "",
+    "text": "En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.\nProgama de la asignatura\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPRODESEN - SENER - 2023 -2037.\nMapa de ruta de la energía eólica en México\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\n\n\n\n\n\n  \n\n\n  \n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n  \n\n\n\n\n\nPráctica 1\nUnable to display PDF file. Download instead.\nPráctica 2\nUnable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "lier.html#recursos",
+    "href": "lier.html#recursos",
+    "title": "Repositorio digital",
+    "section": "",
+    "text": "PRODESEN - SENER - 2023 -2037.\nMapa de ruta de la energía eólica en México"
+  },
+  {
+    "objectID": "lier.html#python",
+    "href": "lier.html#python",
+    "title": "Repositorio digital",
+    "section": "",
+    "text": "Clase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
+  },
+  {
+    "objectID": "lier.html#prácticas",
+    "href": "lier.html#prácticas",
+    "title": "Repositorio digital",
+    "section": "",
+    "text": "Práctica 1\nUnable to display PDF file. Download instead.\nPráctica 2\nUnable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Mi Blog",
+    "section": "",
+    "text": "Entre generaciones y el transporte del futuro\n\n\n\nsustentabilidad\n\n\ntransporte\n\n\nmovilidad urbana\n\n\nautos eléctricos\n\n\n\nPublicado originalmente en: La Unión de Morelos [Acceso…\n\n\n\nOsvaldo Rodríguez\n\n\nNov 11, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -7,11 +42,11 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Osvaldo Rodríguez",
+    "objectID": "posts/2016-11-11_TransporteSust/index.html",
+    "href": "posts/2016-11-11_TransporteSust/index.html",
+    "title": "Entre generaciones y el transporte del futuro",
     "section": "",
-    "text": "Intereses\nEvaluación del recurso eólico en aplicaciones de baja y gran potencia | Estudios de factibilidad tecno-económica | Modelos meteorológicos en análisis eólico | Estudios locales, regionales y Nacionales del recurso | Complementariedad de sistemas de generación variable\n\n\nSemblanza\nInvestigador de tiempo completo del Instituto de Energías Renovables en el Grupo de Energía Eólica. Es miembro del Sistema Nacional de Investigadores Nivel 1. Ha participado como expositor en congresos nacionales e internacionales y ha sido ganador en certámenes nacionales de ahorro de energía y sustentabilidad. Actualmente cuenta con colaboraciones con la Universidad Tecnológica de Delft en Países Bajos y la Universidad de Reading en Reino Unido, es responsable del Laboratorio de Sistemas Eólicos del IER y Responsable Técnico del proyecto 272063 del Fondo de Sustentabilidad Energética SENER-CONACyT cuya finalidad es contribuir en la formación de recursos humanos altamente especializados en investigación en Energía Eólica. Actualmente representa a los y las investigadoras del Instituto ante el H. Consejo Universitario de la UNAM.\n\n\nEducación\nFísico | Universidad Nacional Autónoma de México Dr. en Ingeniería en Energía | Universidad Nacional Autónoma de México"
+    "text": "Hace unas semanas, participé en el Foro de Transporte Limpio en Latinoamérica[1], evento organizado por El Diálogo, Liderazgo para las Américas [2], en el marco promocional de un automóvil eléctrico. Y aprovecho para compartir una experiencia en dicho foro que motivó este texto. Un directivo de CFE habló sobre los grandes beneficios de los autos eléctricos y la creación de un servicio denominado “Electrolineras”, que serán el equivalente eléctrico de las gasolineras. El comentario que llamó mi aten- ción fue: “Hoy día los jóvenes no quieren llegar en transporte pú- blico por su novia, se vería mal…”, en broma o no, y en el contexto, me hizo pensar si realmente los jóvenes piensan así. Mi referencia más cercana son mis alumnos, hoy día tengo la gran oportunidad de impartir asignaturas en la Licenciatura en Ingeniería en Energías Renovables de la UNAM y luego de contextualizar brevemente con ellos la reacción inmediata fue un rotundo, “¡Claro que no!”.\nEn mi opinión, las nuevas generaciones tienen una clara apertura al cambio de paradigmas, ante una problemática global que implica el uso responsable de los recursos naturales sin comprometer el desarrollo de futuras generaciones. La brecha generacional, construye distintas percepciones y por lo tanto hace posible proponer soluciones distintas a un problema común. Ante el calentamiento global y la contaminación ambiental la solución es: ¿Que cada persona tenga un auto eléctrico? Pese a lo atractivo de la idea, pienso que no, y doy algunos argumentos.\nEn la construcción de un futuro sustentable, es obligado el desarrollo de alternativas limpias para el sector del transporte. Tan solo éste, genera el 46% de gases efecto invernadero a nivel global [3] y al ser también gases contaminantes, son causantes de más de 20 mil muertes al año por enfermedades en vías respiratorias en México. Tomando en cuenta que más del 77% de los mexicanos, vivimos en un entorno urbano [4], lugar donde se concentran las emisiones, ambos problemas son prioritarios.\nUna posible solución, puede encontrarse en el transporte eléctrico. La completa electrificación de este sector, es parte del camino que nos conducirá a alcanzar las metas de mitigación. Con el uso de este tipo de tecnologías, la calidad de vida mejorará y se tendrán ahorros en la atención de enfermedades de vías respiratorias en el sector salud. De tal forma que pensar en un auto eléctrico como el transporte del futuro es muy atractivo. En comparación con sus contrapartes de combustión interna, los autos eléctricos presentan algunas diferencias que hoy día son determinantes para su apropiación. Un automóvil eléctrico tiene una menor independencia, entre 100 y 160 km pueden ser recorridos con una sola carga. Hay pocos centros de recarga, son 200 en todo el país y están localizados principalmente en centros comerciales. Este tipo de automóviles son de un alto costo, en México existen cinco marcas que ofrecen esta tecnología y tienen un valor entre 550 mil a casi 900 mil pesos, es decir hasta cuatro veces más que un vehículo de gasolina. Si a esto agregamos la ausencia de políticas gubernamentales que promuevan su uso o incentiven su adquisición, el panorama ya no es tan prometedor. Esto nos hace pensar si un auto eléctrico es realmente una solución para un medio urbano, me parece que no.\nPara este entorno, la respuesta se encuentra en el transporte público. Gran parte de las soluciones frente al cambio climático, la contaminación ambiental, etcétera. No sólo requieren de desarrollo tecnológico sino de un cambio de hábitos, de utilizar los recursos limitados del planeta en forma responsable, e incluso, adoptar nuevos paradigmas o estilos de vida. Como el vivir cerca del trabajo para llegar caminando, en bicicleta o en transporte público, y cuando hablo de transporte público, me refiero a un medio de transporte digno, que garantice tiempos de traslado, cobertura, limpieza, seguridad, etcétera. Es decir, el principal promotor del desarrollo sustentable a largo plazo, es su componente social.\nEl consistente esfuerzo de los tomadores de decisión en México, de atacar la problemática global desde una perspectiva macroeconómica, contribuye al ya desgastado modelo, fomenta la desigualdad social y descuida dicha componente. Comprometiendo así, el desarrollo de futuras generaciones, las cuales, espero algún día puedan utilizar un transporte eléctrico público, tan digno, como para recoger a su novia.\n\nhttp://www.thedialogue.org/event/latin-america-clean-transport-forum/\nhttp://www.thedialogue.org/\nIPCC 2014\nhttp://www.inegi.org.mx/eventos/2015/Poblacion/doc/p-MagaliHurtado.pdf\n\n\n\n\nCómo citarBibTeX@online{rodríguez2016,\n  author = {Rodríguez, Osvaldo},\n  title = {Entre generaciones y el transporte del futuro},\n  date = {2016-11-11},\n  url = {https://osvaldorh.github.io/posts/2016-11-11_TransporteSust},\n  langid = {es}\n}\nPor favor, cita este trabajo como:\nRodríguez, Osvaldo. 2016. “Entre generaciones y el transporte del\nfuturo.” November 11, 2016. https://osvaldorh.github.io/posts/2016-11-11_TransporteSust."
   },
   {
     "objectID": "thesis.html",
@@ -42,60 +77,18 @@
     "text": "Carlos Alberto López Villalobos, Doctorado en Ingeniería en Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Caracterización de la intensidad de turbulencia y energía contenida en ráfagas para aplicaciones en energía eólica. Este trabajo se desarrolló en Co-Dirección con el Dr. Rafael Campos Amezcua. Graduado el 02-08-2019.\n\nVer"
   },
   {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "De interés",
-    "section": "",
-    "text": "Bidi UNAM - ¿Cómo dar de alta una cuenta en BiDi UNAM?\n\n\n\nAula virtual - Distribución del contenido del classroom\n\n\n\nZoom CUAIED - Dar de alta una cuenta de Zoom CUAIED\n\n\n\nSlide pilot - Presentaciones usando PDF’s con Slide pilot\n\n\n\nOBS - Live streamer gratuito"
-  },
-  {
-    "objectID": "lectures.html#eólica",
-    "href": "lectures.html#eólica",
-    "title": "Clases",
-    "section": "",
-    "text": "Header\n        \n        \n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        \n    \n    \n        Header\n        \n        \n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        \n    \n    \n        Header\n        \n        \n        Some quick example text to build on the card title and make up the bulk of the card's content.\n        \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPRODESEN - SENER - 2023 -2037.\nMapa de ruta de la energía eólica en México\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
-  },
-  {
-    "objectID": "lectures.html#modelos-meteorológicos-en-energía-eólica.",
-    "href": "lectures.html#modelos-meteorológicos-en-energía-eólica.",
-    "title": "Clases",
-    "section": "Modelos Meteorológicos en energía eólica.",
-    "text": "Modelos Meteorológicos en energía eólica.\n\nRecursos:\n\nECMWF ERA5\nNACR WRF\nXarray\nBasemap\nCartopy\n\n\n\nFísica"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Published\n2023\nMunguia F. E., Robles M., Garcia H., and Rodríguez Hernández Osvaldo. (2023) \"Improvement in output power assessment by wind turbine power curve modeling based on data mining.\" AIP Adv.\n        \n        Published\n    \nMagana-Gonzalez Roberto, Rodríguez Hernández Osvaldo, and Canul-Reyes Diego. (2023) \"Analysis of Seasonal Variability and Complementarity of Wind and Solar Resources in Mexico.\" Sustainable Energy Technologies and Assessments\n        \n        Published\n    \n2022\nMiranda Rodolfo Farías, Salgado-Herrera Nadia Maria, Rodríguez Hernández Osvaldo, Rodríguez-Rodríguez Juan Ramon, Robles Miguel, Ruiz-Robles Dante, and Venegas-Rebollar Vicente. (2022) \"Distributed generation in low-voltage DC systems by wind energy in the Baja California Peninsula, Mexico.\" Energy\n        \n        Published\n    \nMattu Kanzis L., Bloomfield Hannah C., Thomas Simon, Martínez-Alvarado Oscar, and Rodríguez Hernández Osvaldo. (2022) \"The impact of tropical cyclones on potential offshore wind farms.\" Energy Sustain. Dev.\n        \n        Published\n    \nLopez-Villalobos C.A., Martínez-Alvarado O., Rodríguez Hernández Osvaldo, and Romero-Centeno R.. (2022) \"Analysis of the influence of the wind speed profile on wind power production.\" Energy Rep.\n        \n        Published\n    \nHernández-Yepes J.G., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., Magaldi-Hermosillo A. V., and Drew D.. (2022) \"Influence of spatial resolution in mesoscale modeling to reproduce wind power production in southern Mexico.\" J. Renew. Sustain. Energy\n        \n        Published\n    \nCanul-Reyes D.A., Rodríguez Hernández Osvaldo, and Jarquin-Laguna A.. (2022) \"Potential zones for offshore wind power development in the Gulf of Mexico using reanalyses data and capacity factor seasonal analysis.\" Energy Sustain. Dev.\n        \n        Published\n    \n2020\nMorales-Ruvalcaba C.F., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., Drew D.R., and Ramos E.. (2020) \"Estimating wind speed and capacity factors in Mexico using reanalysis data.\" Energy Sustain. Dev.\n        \n        Published\n    \nLopez-Villalobos C.A., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., and Hernandez-Yepes J.G.. (2020) \"Effects of wind power spectrum analysis over resource assessment.\" Renew. Energy\n        \n        Published\n    \nLopez-Villalobos C.A., Rodríguez Hernández Osvaldo, Campos-Amezcua R., Hernandez-Cruz Guillermo, Jaramillo O.A., and Mendoza J.L.. (2020) \"Wind Turbulence Intensity at La Ventosa, Mexico: A Comparative Study with the IEC61400 Standards.\" Energies\n        \n        Published\n    \n2019\nNadia Salgado-Herrera, David Campos-Gaona, Olimpo Anaya-Lara, Miguel Robles, Rodríguez Hernández Osvaldo, and Juan Rodríguez-Rodríguez. (2019) \"THD Reduction in Distributed Renewables Energy Access through Wind Energy Conversion System Integration under Wind Speed Conditions in Tamaulipas, Mexico.\" Energies\n        \n        Published\n    \nRodríguez Hernández Osvaldo, Martinez Manuel, Lopez-Villalobos Carlos, Garcia Hector, and Campos-Amezcua Rafael. (2019) \"Techno-Economic Feasibility Study of Small Wind Turbines in the Valley of Mexico Metropolitan Area.\" Energies\n        \n        Published\n    \n2018\nGarcía Héctor, Segundo Juan, Rodríguez Hernández Osvaldo, Campos-Amezcua Rafael, and Jaramillo Oscar. (2018) \"Harmonic Modelling of the Wind Turbine Induction Generator for Dynamic Analysis of Power Quality.\" Energies\n        \n        Published\n    \n2016\nRodríguez Hernández Osvaldo, Río J.A. del, and Jaramillo O.A.. (2016) \"The importance of mean time in power resource assessment for small wind turbine applications.\" Energy Sustain. Dev.\n        \n        Published\n    \n2015\nRodríguez Hernández Osvaldo, Río Jesús A. del, Jaramillo Oscar A., and Martínez Manuel. (2015) \"Wind Power Error Estimation in Resource Assessments.\" PLoS ONE\n        \n        Published\n    \n2013\nRodríguez Hernández Osvaldo, Jaramillo O.A., Andaverde J.A., and Río J.A. del. (2013) \"Analysis about sampling, uncertainties and selection of a reliable probabilistic model of wind speed data used on resource assessment.\" Renewable Energy\n        \n        Published\n    \nWorking Papers / Non-archival"
-  },
-  {
-    "objectID": "lectures.html#licenciatura-en-ingeniería-en-energías-renovables",
-    "href": "lectures.html#licenciatura-en-ingeniería-en-energías-renovables",
-    "title": "Clases",
-    "section": "",
-    "text": "En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano."
-  },
-  {
-    "objectID": "lectures.html#posgrado",
-    "href": "lectures.html#posgrado",
-    "title": "Clases",
-    "section": "Posgrado",
-    "text": "Posgrado\nEn esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano."
-  },
-  {
-    "objectID": "lier.html",
-    "href": "lier.html",
-    "title": "Repositorio digital",
-    "section": "",
-    "text": "En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.\nProgama de la asignatura\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPRODESEN - SENER - 2023 -2037.\nMapa de ruta de la energía eólica en México\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\n\nPráctica 1\nUnable to display PDF file. Download instead.\nPráctica 2\nUnable to display PDF file. Download instead."
+    "text": "Published\n2023\nMunguia F. E., Robles M., Garcia H., and Rodríguez Hernández Osvaldo. (2023) \"Improvement in output power assessment by wind turbine power curve modeling based on data mining.\" AIP Adv.\n        \n        Published\n    \nMagana-Gonzalez Roberto, Rodríguez Hernández Osvaldo, and Canul-Reyes Diego. (2023) \"Analysis of Seasonal Variability and Complementarity of Wind and Solar Resources in Mexico.\" Sustainable Energy Technologies and Assessments\n        \n        Published\n    \n2022\nMiranda Rodolfo Farías, Salgado-Herrera Nadia Maria, Rodríguez Hernández Osvaldo, Rodríguez-Rodríguez Juan Ramon, Robles Miguel, Ruiz-Robles Dante, and Venegas-Rebollar Vicente. (2022) \"Distributed generation in low-voltage DC systems by wind energy in the Baja California Peninsula, Mexico.\" Energy\n        \n        Published\n    \nMattu Kanzis L., Bloomfield Hannah C., Thomas Simon, Martínez-Alvarado Oscar, and Rodríguez Hernández Osvaldo. (2022) \"The impact of tropical cyclones on potential offshore wind farms.\" Energy Sustain. Dev.\n        \n        Published\n    \nLopez-Villalobos C.A., Martínez-Alvarado O., Rodríguez Hernández Osvaldo, and Romero-Centeno R.. (2022) \"Analysis of the influence of the wind speed profile on wind power production.\" Energy Rep.\n        \n        Published\n    \nHernández-Yepes J.G., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., Magaldi-Hermosillo A. V., and Drew D.. (2022) \"Influence of spatial resolution in mesoscale modeling to reproduce wind power production in southern Mexico.\" J. Renew. Sustain. Energy\n        \n        Published\n    \nCanul-Reyes D.A., Rodríguez Hernández Osvaldo, and Jarquin-Laguna A.. (2022) \"Potential zones for offshore wind power development in the Gulf of Mexico using reanalyses data and capacity factor seasonal analysis.\" Energy Sustain. Dev.\n        \n        Published\n    \n2020\nMorales-Ruvalcaba C.F., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., Drew D.R., and Ramos E.. (2020) \"Estimating wind speed and capacity factors in Mexico using reanalysis data.\" Energy Sustain. Dev.\n        \n        Published\n    \nLopez-Villalobos C.A., Rodríguez Hernández Osvaldo, Martínez-Alvarado O., and Hernandez-Yepes J.G.. (2020) \"Effects of wind power spectrum analysis over resource assessment.\" Renew. Energy\n        \n        Published\n    \nLopez-Villalobos C.A., Rodríguez Hernández Osvaldo, Campos-Amezcua R., Hernandez-Cruz Guillermo, Jaramillo O.A., and Mendoza J.L.. (2020) \"Wind Turbulence Intensity at La Ventosa, Mexico: A Comparative Study with the IEC61400 Standards.\" Energies\n        \n        Published\n    \n2019\nNadia Salgado-Herrera, David Campos-Gaona, Olimpo Anaya-Lara, Miguel Robles, Rodríguez Hernández Osvaldo, and Juan Rodríguez-Rodríguez. (2019) \"THD Reduction in Distributed Renewables Energy Access through Wind Energy Conversion System Integration under Wind Speed Conditions in Tamaulipas, Mexico.\" Energies\n        \n        Published\n    \nRodríguez Hernández Osvaldo, Martinez Manuel, Lopez-Villalobos Carlos, Garcia Hector, and Campos-Amezcua Rafael. (2019) \"Techno-Economic Feasibility Study of Small Wind Turbines in the Valley of Mexico Metropolitan Area.\" Energies\n        \n        Published\n    \n2018\nGarcía Héctor, Segundo Juan, Rodríguez Hernández Osvaldo, Campos-Amezcua Rafael, and Jaramillo Oscar. (2018) \"Harmonic Modelling of the Wind Turbine Induction Generator for Dynamic Analysis of Power Quality.\" Energies\n        \n        Published\n    \n2016\nRodríguez Hernández Osvaldo, Río J.A. del, and Jaramillo O.A.. (2016) \"The importance of mean time in power resource assessment for small wind turbine applications.\" Energy Sustain. Dev.\n        \n        Published\n    \n2015\nRodríguez Hernández Osvaldo, Río Jesús A. del, Jaramillo Oscar A., and Martínez Manuel. (2015) \"Wind Power Error Estimation in Resource Assessments.\" PLoS ONE\n        \n        Published\n    \n2013\nRodríguez Hernández Osvaldo, Jaramillo O.A., Andaverde J.A., and Río J.A. del. (2013) \"Analysis about sampling, uncertainties and selection of a reliable probabilistic model of wind speed data used on resource assessment.\" Renewable Energy\n        \n        Published\n    \nWorking Papers / Non-archival\nCitas"
   },
   {
     "objectID": "posgrado.html",
     "href": "posgrado.html",
     "title": "Repositorio Digital",
     "section": "",
-    "text": "En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.\n\n\n\n\n\n\n\n\n\nECMWF ERA5\nNACR WRF\nXarray\nBasemap\nCartopy\n\n\n\n\n\n\n\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
+    "text": "En esta sección encontrarás algunas referencias confiables para tener un contexto de la energía eólica en México y el Mundo. También encontrarás recursos relacionados con el sector eléctrico mexicano.\n\n\n\n\n\n\n\n\n\nECMWF ERA5\nNACR WRF\nXarray\nBasemap\nCartopy"
   },
   {
     "objectID": "posgrado.html#modelos-meteorológicos-en-energía-eólica.",
@@ -105,38 +98,17 @@
     "text": "ECMWF ERA5\nNACR WRF\nXarray\nBasemap\nCartopy"
   },
   {
-    "objectID": "lier.html#python",
-    "href": "lier.html#python",
-    "title": "Repositorio digital",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Osvaldo Rodríguez",
     "section": "",
-    "text": "Clase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
+    "text": "Intereses\nEvaluación del recurso eólico en aplicaciones de baja y gran potencia | Estudios de factibilidad tecno-económica | Modelos meteorológicos en análisis eólico | Estudios locales, regionales y Nacionales del recurso | Complementariedad de sistemas de generación variable\n\n\nSemblanza\nInvestigador de tiempo completo del Instituto de Energías Renovables en el Grupo de Energía Eólica. Es miembro del Sistema Nacional de Investigadores Nivel 1. Ha participado como expositor en congresos nacionales e internacionales y ha sido ganador en certámenes nacionales de ahorro de energía y sustentabilidad. Actualmente cuenta con colaboraciones con la Universidad Tecnológica de Delft en Países Bajos y la Universidad de Reading en Reino Unido, es responsable del Laboratorio de Sistemas Eólicos del IER y Responsable Técnico del proyecto 272063 del Fondo de Sustentabilidad Energética SENER-CONACyT cuya finalidad es contribuir en la formación de recursos humanos altamente especializados en investigación en Energía Eólica. Actualmente representa a los y las investigadoras del Instituto ante el H. Consejo Universitario de la UNAM.\n\n\nEducación\nFísico | Universidad Nacional Autónoma de México Dr. en Ingeniería en Energía | Universidad Nacional Autónoma de México"
   },
   {
-    "objectID": "lier.html#sesiones",
-    "href": "lier.html#sesiones",
-    "title": "Repositorio digital",
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "De interés",
     "section": "",
-    "text": "Clase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
-  },
-  {
-    "objectID": "lier.html#recursos",
-    "href": "lier.html#recursos",
-    "title": "Repositorio digital",
-    "section": "",
-    "text": "PRODESEN - SENER - 2023 -2037.\nMapa de ruta de la energía eólica en México"
-  },
-  {
-    "objectID": "posgrado.html#sesiones",
-    "href": "posgrado.html#sesiones",
-    "title": "Repositorio Digital",
-    "section": "",
-    "text": "Clase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada\n\n\n\nClase grabada"
-  },
-  {
-    "objectID": "lier.html#prácticas",
-    "href": "lier.html#prácticas",
-    "title": "Repositorio digital",
-    "section": "",
-    "text": "Práctica 1\nUnable to display PDF file. Download instead.\nPráctica 2\nUnable to display PDF file. Download instead."
+    "text": "Bidi UNAM - ¿Cómo dar de alta una cuenta en BiDi UNAM? \n\n    \n    Aula virtual - Distribución del contenido del classroom\n\n    \n    Zoom CUAIED - Dar de alta una cuenta de Zoom CUAIED\n\n    \n     Slide pilot - Presentaciones usando PDF's con Slide pilot \n\n    \n    OBS - Live streamer gratuito"
   }
 ]

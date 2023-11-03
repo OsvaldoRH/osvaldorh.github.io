@@ -25,17 +25,16 @@ website:
             href: posgrado.qmd
       - research.qmd
       - thesis.qmd
+      - posts.qmd
     tools:
       - icon: twitter
         href: https://twitter.com
       - icon: github
         menu:
           - text: Source Code
-            url:  https://code.com
-          - text: Report a Bug
-            url:  https://bugs.com
+            url:  https://github.com/OsvaldoRH
       - icon: youtube
-        href: https://www.youtube.com/@osvaldorodriguezhernandez5715/featured
+        href: https://www.youtube.com/channel/UCcA6Mt8tMqm658YZKJDwgvA
   page-footer: 
     background: primary
     left: "Copyright 2023, Osvaldo Rodríguez. "

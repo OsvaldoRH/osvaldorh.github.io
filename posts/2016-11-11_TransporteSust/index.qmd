@@ -1,0 +1,38 @@
+---
+title: "Entre generaciones y el transporte del futuro"
+description: "Publicado originalmente en: La Unión de Morelos 
+[Acceso aquí](https://www.launion.com.mx/opinion/sin-embargo-se-mueve/noticias/80773-entre-generaciones-y-el-transporte-del-futuro.html)  "
+author:
+  - name: Osvaldo Rodríguez
+    url: https://osvaldorh.github.io/
+    orcid: 0000-0002-6567-4669
+    affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
+    affiliation-url: https://www.ier.unam.mx 
+date: 11-11-2016
+categories: [sustentabilidad, transporte, movilidad urbana, autos eléctricos] # self-defined categories
+citation: 
+  url: https://osvaldorh.github.io/posts/2016-11-11_TransporteSust 
+image: imagen.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+lang: es 
+---
+
+Hace unas semanas, participé en el Foro de Transporte Limpio en Latinoamérica[1], evento organizado por El Diálogo, Liderazgo para las Américas [2], en el marco promocional de un automóvil eléctrico. Y aprovecho para compartir una experiencia en dicho foro que motivó este texto. Un directivo de CFE habló sobre los grandes beneficios de los autos eléctricos y la creación de un servicio denominado “Electrolineras”, que serán el equivalente eléctrico de las gasolineras. El comentario que llamó mi aten- ción fue: “Hoy día los jóvenes no quieren llegar en transporte pú- blico por su novia, se vería mal...”, en broma o no, y en el contexto, me hizo pensar si realmente los jóvenes piensan así. Mi referencia más cercana son mis alumnos, hoy día tengo la gran oportunidad de impartir asignaturas en la Licenciatura en Ingeniería en Energías Renovables de la UNAM y luego de contextualizar brevemente con ellos la reacción inmediata fue un rotundo, “¡Claro que no!”.
+
+En mi opinión, las nuevas generaciones tienen una clara apertura al cambio de paradigmas, ante una problemática global que implica el uso responsable de los recursos naturales sin comprometer el desarrollo de futuras generaciones. La brecha generacional, construye distintas percepciones y por lo tanto hace posible proponer soluciones distintas a un problema común. Ante el calentamiento global y la contaminación ambiental la solución es: ¿Que cada persona tenga un auto eléctrico? Pese a lo atractivo de la idea, pienso que no, y doy algunos argumentos.
+
+En la construcción de un futuro sustentable, es obligado el desarrollo de alternativas limpias para el sector del transporte. Tan solo éste, genera el 46% de gases efecto invernadero a nivel global [3] y al ser también gases contaminantes, son causantes de más de 20 mil muertes al año por enfermedades en vías respiratorias en México. Tomando en cuenta que más del 77% de los mexicanos, vivimos en un entorno urbano [4], lugar donde se concentran las emisiones, ambos problemas son prioritarios.
+
+Una posible solución, puede encontrarse en el transporte eléctrico. La completa electrificación de este sector, es parte del camino que nos conducirá a alcanzar las metas de mitigación. Con el uso de este tipo de tecnologías, la calidad de vida mejorará y se tendrán ahorros en la atención de enfermedades de vías respiratorias en el sector salud. De tal forma que pensar en un auto eléctrico como el transporte del futuro es muy atractivo.
+En comparación con sus contrapartes de combustión interna, los autos eléctricos presentan algunas diferencias que hoy día son determinantes para su apropiación. Un automóvil eléctrico tiene una menor independencia, entre 100 y 160 km pueden ser recorridos con una sola carga. Hay pocos centros de recarga, son 200 en todo el país y están localizados principalmente en centros comerciales. Este tipo de automóviles son de un alto costo, en México existen cinco marcas que ofrecen esta tecnología y tienen un valor entre 550 mil a casi 900 mil pesos, es decir hasta cuatro veces más que un vehículo de gasolina. Si a esto agregamos la ausencia de políticas gubernamentales que promuevan su uso o incentiven su adquisición, el panorama ya no es tan prometedor.
+Esto nos hace pensar si un auto eléctrico es realmente una solución para un medio urbano, me parece que no. 
+
+Para este entorno, la respuesta se encuentra en el transporte público. Gran parte de las soluciones frente al cambio climático, la contaminación ambiental, etcétera. No sólo requieren de desarrollo tecnológico sino de un cambio de hábitos, de utilizar los recursos limitados del planeta en forma responsable, e incluso, adoptar nuevos paradigmas o estilos de vida. Como el vivir cerca del trabajo para llegar caminando, en bicicleta o en transporte público, y cuando hablo de transporte público, me refiero a un medio de transporte digno, que garantice tiempos de traslado, cobertura, limpieza, seguridad, etcétera. Es decir, el principal promotor del desarrollo sustentable a largo plazo, es su componente social.
+
+
+El consistente esfuerzo de los tomadores de decisión en México, de atacar la problemática global desde una perspectiva macroeconómica, contribuye al ya desgastado modelo, fomenta la desigualdad social y descuida dicha componente. Comprometiendo así, el desarrollo de futuras generaciones, las cuales, espero algún día puedan utilizar un transporte eléctrico público, tan digno, como para recoger a su novia.
+ 
+1. http://www.thedialogue.org/event/latin-america-clean-transport-forum/
+2. http://www.thedialogue.org/
+3. IPCC 2014
+4. http://www.inegi.org.mx/eventos/2015/Poblacion/doc/p-MagaliHurtado.pdf

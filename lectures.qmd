@@ -2,14 +2,58 @@
 title: "De interés"
 format: html
 ---
-1.  Bidi UNAM - ¿Cómo dar de alta una cuenta en BiDi UNAM?
-{{< video https://youtu.be/x0SDpmhstdc?si=5uKoFOdmR6woZDy8 width="400" height="300" >}}
-2. Aula virtual - Distribución del contenido del classroom
-{{< video https://youtu.be/rBTm0LJrvVY?si=n9vAIiLkFnLLHWYJ width="400" height="300" >}}
-3. Zoom CUAIED - Dar de alta una cuenta de Zoom CUAIED
-{{< video https://youtu.be/NSml9MQtd4A?si=p0xsX7NOV955UsM3 width="400" height="300" >}}
-4. Slide pilot - Presentaciones usando PDF's con Slide pilot
-{{< video https://youtu.be/QOZzjSLsFWw?si=RofyLx7GdyjSa6Mn width="400" height="300" >}}
-5. OBS - Live streamer gratuito
-{{< video https://youtu.be/bv4kXlJw3f0?si=8HQXGIIXLiJ5oRdq width="400" height="300" >}}
 
+```{=html}
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 1em;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 1em;
+    }
+
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+    }
+
+    .video-grid h3 {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+
+    @media (min-width: 768px) {
+      .video-grid {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-grid">
+    <iframe src="https://www.youtube.com/embed/x0SDpmhstdc?si=3W_ED3gCTBM89Rwv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3> Bidi UNAM - ¿Cómo dar de alta una cuenta en BiDi UNAM? </h3>
+
+    <iframe src="https://www.youtube.com/embed/rBTm0LJrvVY?si=4J2nXkLL_AEbkn2b" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Aula virtual - Distribución del contenido del classroom</h3>
+
+    <iframe src="https://www.youtube.com/embed/NSml9MQtd4A?si=ZA1NE4yKqrdaHIaa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Zoom CUAIED - Dar de alta una cuenta de Zoom CUAIED</h3>
+
+    <iframe src="https://www.youtube.com/embed/QOZzjSLsFWw?si=YjJuq-9-GrsPsxor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3> Slide pilot - Presentaciones usando PDF's con Slide pilot </h3>
+
+    <iframe src="https://www.youtube.com/embed/bv4kXlJw3f0?si=r_FPMLLjWjNpDpZt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>OBS - Live streamer gratuito</h3>
+
+
+  </div>
+</body>
+</html>
+```

@@ -77,7 +77,6 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
 ## Python
 
 
-
 ### Sesión 1 - Elementos Python
 
 <a class="btn btn-primary btn-sm" href="https://youtu.be/sjF3NRMaUIo" role="button">Clase grabada</a>
@@ -100,103 +99,107 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
 
 ## Sesiones
 
+```{=html}
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 1em;
+    }
 
-### Sesión 1 - Contenido general del curso
-<a class="btn btn-primary btn-sm" href="https://youtu.be/sjF3NRMaUIo" role="button">Clase grabada</a>
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 1em;
+    }
 
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+    }
 
+    .video-grid h3 {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
 
-### Sesión 2 - Energía eólica en México y el Mundo
-<a class="btn btn-primary btn-sm" href="https://youtu.be/Rt4EVcocMLQ" role="button">Clase grabada</a>
+    @media (min-width: 768px) {
+      .video-grid {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-grid">
+    <iframe src="https://www.youtube.com/embed/sjF3NRMaUIo?si=NEz7LN7GxaETUpKV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3> Sesión 1 - Contenido general del curso </h3>
 
+    <iframe src="https://www.youtube.com/embed/Rt4EVcocMLQ?si=wmfELx5jJ8O0T5qs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 2 - Energía eólica en México y el Mundo</h3>
 
+    <iframe src="https://www.youtube.com/embed/Dw2qwJ4YtCQ?si=gNRHoLTiv2MPUohg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 3 - Conceptos Básicos</h3>
 
-### Sesión 3 - Conceptos Básicos
-<a class="btn btn-primary btn-sm" href="https://youtu.be/aZO3JKYa6Cg" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/2ImO2zu6NqQ?si=bAe-y-_-Dtjd3fkn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 4 - Patrones de circulación del viento</h3>
 
+    <iframe src="https://www.youtube.com/embed/8hVEa3Ml6RA?si=-FsQ4yv1oJJ3ge5J" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México</h3>
 
+    <iframe src="https://www.youtube.com/embed/nl7SWZrQAmc?si=KRBRrhuhsjy1Dwj0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 6 - Potencia en el viento</h3>
 
-### Sesión 4 - Patrones de circulación del viento
-<a class="btn btn-primary btn-sm" href="https://youtu.be/2ImO2zu6NqQ" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/pbRjzFxV_gQ?si=Z4oI7FsBCTqgG8S3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 7 - Modelos de capa límite</h3>
 
+    <iframe src="https://www.youtube.com/embed/We23W10H4_M?si=YeId_27w9vJPc8ZX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 9 - Histogramas y FDP</h3>
 
+    <iframe src="https://www.youtube.com/embed/awknm1BcS9E?si=nVHyaMt7U88cV05K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 10 - Ajuste de FDP en Python</h3>
 
-### Sesión 5 - Patrones de circulación del viento - Ejemplo ERA5 y energía eólica en el golfo de México
+    <iframe src="https://www.youtube.com/embed/Z8RjZWY5xzU?si=gdd-Rg1FovtAcuHr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 11 - Evaluación del recurso eólico</h3>
 
-<a class="btn btn-primary btn-sm" href="https://youtu.be/8hVEa3Ml6RA" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/SvrZce2KJ6M?si=E7k6lULQ_RR12Cf_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.</h3>
 
+    <iframe src="https://www.youtube.com/embed/XyK3yQRJ0sU?si=vQxE8eZs6FQib-6L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 13 - Costo de la energía</h3>
 
+    <iframe src="https://www.youtube.com/embed/Kt-Zdmv4m54?si=TaXmKR5M3xVlo7QJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python </h3>
 
-### Sesión 6 - Potencia en el viento
-<a class="btn btn-primary btn-sm" href="https://youtu.be/nnVpddRlITE" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/mkgq4UHfCa0?si=JMWX8P8HV9KJFEhG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 15 - Evaluación del recurso - Paso a Paso</h3>
 
+    <iframe src="https://www.youtube.com/embed/uHuxLdSzF9I?si=STxY0kCxdqX_ms1Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 16 - Introducción a aerodinámica</h3>
 
+    <iframe src="https://www.youtube.com/embed/ipwTsatrOZ0?si=_deP-4JlKRftXHRt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 17 - Introducción a la aerodinámica - Parte 2</h3>
 
-### Sesión 7 - Modelos de capa límite
-<a class="btn btn-primary btn-sm" href="https://youtu.be/pbRjzFxV_gQ" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/B5BrQt11qPc?si=X29-tNmG68dRWhkM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 18 - Disco actuador unidimiensional</h3>
 
+    <iframe src="https://www.youtube.com/embed/mfFVhRiGk80?si=qyUTwj2tXTbIZtbb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 19 - Disco actuador con rotación de estela</h3>
 
+    <iframe src="https://www.youtube.com/embed/BQEy0skfxGU?si=evplAYvj2nlGs0ML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 20 - Teoría de elemento de pala - Parte 1</h3>
 
+    <iframe src="https://www.youtube.com/embed/aRaWigVd-Eg?si=n8MH1prqJ0TfLOJ9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 21 - Teoría de elemento de pala - Parte 2 - Diseño de aerogeneradores</h3>
 
-### Sesión 9 - Histogramas y FDP
-<a class="btn btn-primary btn-sm" href="https://youtu.be/We23W10H4_M" role="button">Clase grabada</a>
+    <iframe src="https://www.youtube.com/embed/JeitH_etqvw?si=10LB-QdmBSYtRzkN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 22 - Estelas y granjas eólicas</h3>
 
-
-
-### Sesión 10 - Ajuste de FDP en Python
-<a class="btn btn-primary btn-sm" href="https://youtu.be/awknm1BcS9E" role="button">Clase grabada</a>
-
-
-
-### Sesión 11 - Evaluación del recurso eólico
-<a class="btn btn-primary btn-sm" href="https://youtu.be/Z8RjZWY5xzU" role="button">Clase grabada</a>
-
-
-
-### Sesión 12 - Ejemplo de evaluación del recurso eólico con Python.
-<a class="btn btn-primary btn-sm" href="https://youtu.be/SvrZce2KJ6M" role="button">Clase grabada</a>
-
-
-### Sesión 13 - Costo de la energía
-<a class="btn btn-primary btn-sm" href="https://youtu.be/XyK3yQRJ0sU" role="button">Clase grabada</a>
-
-
-
-### Sesión 14 - Evaluación del recurso - Uso directo de los datos - Python
-<a class="btn btn-primary btn-sm" href="https://youtu.be/Kt-Zdmv4m54" role="button">Clase grabada</a>
-
-
-
-### Sesión 15 - Evaluación del recurso - Paso a Paso
-<a class="btn btn-primary btn-sm" href="https://youtu.be/mkgq4UHfCa0" role="button">Clase grabada</a>
-
-
-
-### Sesión 16 - Introducción a aerodinámica
-<a class="btn btn-primary btn-sm" href="https://youtu.be/uHuxLdSzF9I" role="button">Clase grabada</a>
-
-
-
-### Sesión 17 - Introducción a la aerodinámica - Parte 2
-<a class="btn btn-primary btn-sm" href="https://youtu.be/ipwTsatrOZ0" role="button">Clase grabada</a>
-
-### Sesión 18 - Disco actuador unidimiensional
-<a class="btn btn-primary btn-sm" href="https://youtu.be/B5BrQt11qPc" role="button">Clase grabada</a>
-
-### Sesión 19 - Disco actuador con rotación de estela
-<a class="btn btn-primary btn-sm" href="https://youtu.be/mfFVhRiGk80" role="button">Clase grabada</a>
-
-### Sesión 20 - Teoría de elemento de pala - Parte 1
-<a class="btn btn-primary btn-sm" href="https://youtu.be/BQEy0skfxGU" role="button">Clase grabada</a>
-
-### Sesión 21 - Teoría de elemento de pala - Parte 2 - Diseño de aerogeneradores
-<a class="btn btn-primary btn-sm" href="https://youtu.be/aRaWigVd-Eg" role="button">Clase grabada</a>
-
-
-### Sesión 22 - Estelas y granjas eólicas
-<a class="btn btn-primary btn-sm" href="https://youtu.be/JeitH_etqvw" role="button">Clase grabada</a>
-
-
+  </div>
+</body>
+</html>
+```
 
 
 ## Prácticas
@@ -205,3 +208,7 @@ Práctica 1
 
 Práctica 2
 {{< pdf Practica_02.pdf width=100% height=400 >}}
+
+
+
+
