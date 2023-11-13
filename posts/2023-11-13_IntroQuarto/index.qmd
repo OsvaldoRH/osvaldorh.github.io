@@ -1,5 +1,5 @@
 ---
-title: "Crear un libro en quarto"
+title: "Editar el template libro para quarto"
 description: "En este post describo brevemente cómo hacer un libro en quarto, las salidas son pdf, html y ebook."
 author:
   - name: Osvaldo Rodríguez
