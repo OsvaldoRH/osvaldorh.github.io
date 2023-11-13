@@ -18,7 +18,7 @@ lang: es
 
 En este post describo brevemente un template que generé con algunos elementos para escribir de inmediato con quarto  un libro y ayudar a reducir la curva de aprendizaje.
 
-Quarto es...
+Quarto es un programa que funciona en markdown para generar libros, latex, epub y html. 
 
 El template que cree en mi computadora es el siguiente:
 
