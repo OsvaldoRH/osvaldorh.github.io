@@ -1,5 +1,5 @@
 ---
-title: "Editar el template libro para quarto"
+title: "Crear un libro en quarto"
 description: "En este post describo brevemente cómo hacer un libro en quarto, las salidas son pdf, html y ebook."
 author:
   - name: Osvaldo Rodríguez
@@ -7,33 +7,55 @@ author:
     orcid: 0000-0002-6567-4669
     affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
     affiliation-url: https://www.ier.unam.mx 
-date: 11-11-2016
-categories: [quarto, python, libro, tempate, latex] # self-defined categories
+date: 11-13-2023
+categories: [quarto, python, libro, template, latex] # self-defined categories
 citation: 
   url: https://osvaldorh.github.io/posts/2016-11-13_IntroQuarto
-image: imagen.jpg
+image: image.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 lang: es 
 ---
 
-En este post describo brevemente un template que generé con algunos elementos para escribir de inmediato con quarto  un libro y ayudar a reducir la curva de aprendizaje.
+Quarto es un sistema de código abierto para publicar textos técnicos y científicos. para ello utiliza *rmarkdown*, $\LaTeX$ y una gran variedad de programas de cómputo, yo lo integro con *python*. Los archivos de puedes generar van desde sitios web o blogs (este sitio web está generado en *quarto*), artículos, presentaciones, repositorios, tableros para la visualizació e interacción de datos y libros. En este post me referiré únicamente al formato libro. 
 
-Quarto es un programa que funciona en markdown para generar libros, latex, epub y html. 
+```{=html}
+<iframe width="100%" height="300" src="https://quarto.org/" title="Quarto sitio oficial"></iframe>
+```
 
-El template que cree en mi computadora es el siguiente:
+Una de las ventajas que tiene quarto es la creación de textos en "codigo" y generar una salida. Esto tradicionalmente lo hacemos en $\LaTeX$ y código de *Python*, escribimos algo de código y obtenemos de salida, un *pdf* por ejemplo, con un documento de calidad listo para imprimir.
 
-para que función correctamente debes tener instalado: Latex y python.
+```{mermaid}
+flowchart LR
+  A(LaTeX) --> B(PDF)
+```
+
+Con *quarto* hacemos algo parecido, utilizamos *rmarkdown* para escribir texto y referecias cruzadas; con la ventaja que podemos enriquecer nuestros textos con $\LaTeX$. Los archivos de salida son no solamemnte pdf, sino que puedes obtener un ebook y una página web (html). Cubriendo todos los formatos digitales posibles de salida con la posibilidad incementar las posibilidades de distribución del texto.
+
+```{mermaid}
+flowchart LR
+ newLines["Quarto
+ - Rmarkdown
+ - Python
+ - LaTeX"]
+    newLines --> B[PDF]
+    newLines --> C[ebook]
+    newLines --> D[html]
+```
 
 
-Aquí el vínculo para descargar e instalar quarto
+En este post describo brevemente un template que generé con *Quarto*, al cuál le integré algunos elementos para escribir de inmediato un libro y ayudar a reducir la curva de aprendizaje. Este template lo generé siguiendo la documentación oficial. Aquí describo una guía rápida de cómo usarla.
 
-<https://quarto.org>
+Un dato importante es que debes tener ya instalado Python y Latex previamente para que al momento de correr quarto todo marche correctamente. También recomiendo descargar e instalar VS-Code, el cuál ofrece una interfaz gráfica para previsualizar el contenido que trabajes. Finalmente, descarga el template en tu computadora. Aquí todos los vínculos. 
 
-Aquí el vínculo para descargar VS-code
+1. Descarga e instala Quarto <https://quarto.org>
 
-<https://code.visualstudio.com>
+2. Descargar VS-code <https://code.visualstudio.com>
 
-Aquí el video de cómo hacer un *preview* y un render y tener de salida el pdf y un ebook.
+3. Descarga el template <https://github.com/OsvaldoRH/libro_quatro_template>
+
+Con lo anterior ya hecho basta con correr quarto a través de la terminal o en VSCode para previsualizar el template del libro. El cuál solo debes modificar para personalizarlo. Hice un breve video de referencia que espero sea de utilidad.
+
+Aquí el video de cómo hacer un *preview* y un render y tener de salida e htam, pdf y un ebook.
 
 {{< video https://youtu.be/8eRRZv1CleU
     title="Descripción del template Libro_template"

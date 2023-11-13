@@ -8,7 +8,7 @@ author:
     orcid: 0000-0002-6567-4669
     affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
     affiliation-url: https://www.ier.unam.mx 
-date: 11-11-2016
+date: 11-08-2023
 categories: [inversión, ciencia, fraudes, OTIS, COVID-19] # self-defined categories
 citation: 
   url: https://osvaldorh.github.io/posts/2016-11-11_CianciaBarata
