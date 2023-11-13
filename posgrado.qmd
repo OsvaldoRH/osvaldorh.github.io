@@ -88,10 +88,22 @@ En esta sección encontrarás algunas referencias confiables para tener un conte
     <h3>Sesión 9 - Mapas en python</h3>
 
     <iframe src="https://www.youtube.com/embed/zv8WZ5-DY_E?si=chNH9R6fWw1YQy5e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h3>Sesión 10 - FDP e histogramas</h3>
+    <h3>Sesión 10 -  Funciones de Densidad de Probabilidad e Histogramas</h3>
 
     <iframe src="https://www.youtube.com/embed/zkSzqc9gKP0?si=2Hn13pJNM4ytWX-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h3>Sesión 11 - NetCDF's y MERRA2</h3>
+
+    <iframe src="https://www.youtube.com/embed/zkSzqc9gKP0?si=2Hn13pJNM4ytWX-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 12 - </h3>
+
+    <iframe src="https://www.youtube.com/embed/uc9QUUaWt_M?si=bzB8IHwpizoNxgaj" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 13 -  Funciones de Densidad de Probabilidad  y Bondad de Ajuste</h3>
+
+    <iframe src="https://www.youtube.com/embed/bRwedMgGoC4?si=FhRQ4jmurq42L8sP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 14 - VAPOR NCAR</h3>
+
+    <iframe src="https://www.youtube.com/embed/MisjYpXBjcw?si=Uo675-CBGMAEn5mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Sesión 15 - Tiempo de muestreo y estacionalidad</h3>
 
   </div>
 </body>

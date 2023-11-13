@@ -1,0 +1,42 @@
+---
+title: "Crear un libro en quarto"
+description: "En este post describo brevemente cómo hacer un libro en quarto, las salidas son pdf, html y ebook."
+author:
+  - name: Osvaldo Rodríguez
+    url: https://osvaldorh.github.io/
+    orcid: 0000-0002-6567-4669
+    affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
+    affiliation-url: https://www.ier.unam.mx 
+date: 11-11-2016
+categories: [quarto, python, libro, tempate, latex] # self-defined categories
+citation: 
+  url: https://osvaldorh.github.io/posts/2016-11-13_IntroQuarto
+image: imagen.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+lang: es 
+---
+
+En este post describo brevemente un template que generé con algunos elementos para escribir de inmediato con quarto  un libro y ayudar a reducir la curva de aprendizaje.
+
+Quarto es...
+
+El template que cree en mi computadora es el siguiente:
+
+para que función correctamente debes tener instalado: Latex y python.
+
+
+Aquí el vínculo para descargar e instalar quarto
+
+<https://quarto.org>
+
+Aquí el vínculo para descargar VS-code
+
+<https://code.visualstudio.com>
+
+Aquí el video de cómo hacer un *preview* y un render y tener de salida el pdf y un ebook.
+
+{{< video https://youtu.be/8eRRZv1CleU
+    title="Descripción del template Libro_template"
+    start="0"
+    aspect-ratio="21x9" 
+>}}
