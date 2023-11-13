@@ -57,7 +57,7 @@ Con lo anterior ya hecho basta con correr quarto a través de la terminal o en V
 
 Aquí el video de cómo hacer un *preview* y un render y tener de salida e htam, pdf y un ebook.
 
-{{< video https://youtu.be/9mNHl1CKAMI
+{{< video https://youtu.be/lrotSZe568o
     title="Descripción del template Libro_template"
     start="0"
     aspect-ratio="21x9" 
