@@ -16,24 +16,42 @@ image: imagen.jpg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 lang: es 
 ---
-Hace algunas semanas en el congreso de la unión, tuvo lugar la primera audiencia pública sobre los fenómenos aéreos anómalos. El evento fue organizado por el Dip. Sergio Gómez y culminó con la presentación de dos “seres no humanos” por un “experto”, que fue protagonista en dicha reunión. La noticia dio vuelta al mundo, en particular dos notas a resaltar, la declaración de la NASA  al respecto y la historia previa de las “evidencias” envueltas en una historia fraudulenta . Sin duda, tener evidencia de vida extraterrestre sería un suceso extraordinario, sin embargo, aún no ha ocurrido.
 
-Lamentablemente no es la primera ocasión donde eventos extraordinarios ocurren. La historia reciente de México ha transitado por altos índices de violencia. Para combatirla, por el año 2012 fueron adquiridos por el gobierno mexicano los equipos de detección GT-200. Los cuales, consistían en cajas de plástico con tarjetas intercambiables y sin fuente de energía que eran capaces de detectar explosivos, armas y drogas, en síntesis, equipos “extraordinarios”. El uso de estos equipos inservibles causó el encarcelamiento de inocentes y un evidente impacto al erario. La historia fue ampliamente documentada por el Dr. Luis Mochan, aquí su blog . 
 
-La UNESCO recomienda una inversión de 2% del PIB para el desarrollo científico. Hace unas semanas la secretaría de hacienda presentó su propuesta de “Paquete económico y presupuesto 2024” se proyecta, respecto al 2023 que equivale a poco más de 148 mil millones de pesos 0.6% del PIB , récord de inversión de la actual administración, sin embargo, aún lejano al 1% establecido en la ley y más todavía al tan añorado 2%.
 
-Parecería cuestionable la inversión en ciencia y educación, ya que sus resultados son aparentemente intangibles al compararlos con la construcción de una autopista o un aeropuerto. Sin embargo, la historia reciente nos ha dado dos grandes lecciones. En 2020, se declaró un estado de emergencia global ocasionado por un virus, que obligó a cambiar nuestro estilo de vida por algunos años con consecuencias gravísimas como la muerte de 334 mil mexicanos y los efectos posteriores que aún estamos viviendo. Durante la pandemia, era necesario contar con un sistema de salud adecuado, suficiente personal capacitado, equipo médico, respiradores para ayudar a dar tratamiento a un virus totalmente desconocido. Bueno, casi desconocido. Una investigadora, Sara Gilbert de la Universidad de Oxford, trabajaba con este tipo de virus, y en un tiempo récord, un año, se contaba con una vacuna. Reino Unido invirtió en 2021 el 2.7% del PIB en el sector de ciencia . Durante la pandemia, el gran esfuerzo de los países era conseguir una vacuna, y he aquí la gran diferencia de invertir y no invertir en ciencia. El logro en ese entonces era comprar lotes de vacunas, cuando el gran logro en realidad es fabricarlas con toda la complejidad que ello conlleva. 
 
-El segundo caso: el paso del huracán Otis en las costas de Acapulco, Guerrero. Sorprendió en la comunidad científica la rápida evolución de tormenta tropical a huracán categoría 5. La forma de estudiar estos fenómenos requiere de un robusto y permanente monitoreo de las condiciones meteorológicas para su contraste con modelos físicos. Y, en un contexto de cambio climático, pareciera que el desarrollo de este tipo de tormentas será lo habitual. Y ¿Cómo prevenir?, pues invirtiendo en ciencia. Hay que generar conocimiento para identificar de forma temprana estos fenómenos, prevenir e implementar acciones para reducir riesgos, ya que México se encuentra en una zona propensa para el desarrollo de este tipo de fenómenos .
+:::: {.columns}
+
+::: {.column width="50%"}
+Hace algunas semanas en el congreso de la unión, tuvo lugar la primera audiencia pública sobre los fenómenos aéreos anómalos. El evento fue organizado por el Dip. Sergio Gómez y culminó con la presentación de dos “seres no humanos” por un “experto”, que fue protagonista en dicha reunión. La noticia dio vuelta al mundo, en particular dos notas a resaltar, la declaración de la NASA [^1] al respecto y la historia previa de las “evidencias” envueltas en una historia fraudulenta [^2]. Sin duda, tener evidencia de vida extraterrestre sería un suceso extraordinario, sin embargo, aún no ha ocurrido.
+
+Lamentablemente no es la primera ocasión donde eventos extraordinarios ocurren. La historia reciente de México ha transitado por altos índices de violencia. Para combatirla, por el año 2012 fueron adquiridos por el gobierno mexicano los equipos de detección GT-200. Los cuales, consistían en cajas de plástico con tarjetas intercambiables y sin fuente de energía que eran capaces de detectar explosivos, armas y drogas, en síntesis, equipos “extraordinarios”. El uso de estos equipos inservibles causó el encarcelamiento de inocentes y un evidente impacto al erario. La historia fue ampliamente documentada por el Dr. Luis Mochan, aquí su blog [^3]. 
+:::
+
+::: {.column width="50%"}
+![Ciencia Barata, imagen generada con leonardo.ia](imagen.jpg){ width=60%}
+:::
+
+
+::::
+
+
+La UNESCO recomienda una inversión de 2% del PIB para el desarrollo científico. Hace unas semanas la secretaría de hacienda presentó su propuesta de “Paquete económico y presupuesto 2024” se proyecta, respecto al 2023 que equivale a poco más de 148 mil millones de pesos 0.6% del PIB [^4], récord de inversión de la actual administración, sin embargo, aún lejano al 1% establecido en la ley y más todavía al tan añorado 2%.
+
+Parecería cuestionable la inversión en ciencia y educación, ya que sus resultados son aparentemente intangibles al compararlos con la construcción de una autopista o un aeropuerto. Sin embargo, la historia reciente nos ha dado dos grandes lecciones. En 2020, se declaró un estado de emergencia global ocasionado por un virus, que obligó a cambiar nuestro estilo de vida por algunos años con consecuencias gravísimas como la muerte de 334 mil mexicanos y los efectos posteriores que aún estamos viviendo. Durante la pandemia, era necesario contar con un sistema de salud adecuado, suficiente personal capacitado, equipo médico, respiradores para ayudar a dar tratamiento a un virus totalmente desconocido. Bueno, casi desconocido. Una investigadora, Sara Gilbert de la Universidad de Oxford, trabajaba con este tipo de virus, y en un tiempo récord, un año, se contaba con una vacuna. Reino Unido invirtió en 2021 el 2.7% del PIB en el sector de ciencia[^5]. Durante la pandemia, el gran esfuerzo de los países era conseguir una vacuna, y he aquí la gran diferencia de invertir y no invertir en ciencia. El logro en ese entonces era comprar lotes de vacunas, cuando el gran logro en realidad es fabricarlas con toda la complejidad que ello conlleva. 
+
+El segundo caso: el paso del huracán Otis en las costas de Acapulco, Guerrero. Sorprendió en la comunidad científica la rápida evolución de tormenta tropical a huracán categoría 5. La forma de estudiar estos fenómenos requiere de un robusto y permanente monitoreo de las condiciones meteorológicas para su contraste con modelos físicos. Y, en un contexto de cambio climático, pareciera que el desarrollo de este tipo de tormentas será lo habitual. Y ¿Cómo prevenir?, pues invirtiendo en ciencia. Hay que generar conocimiento para identificar de forma temprana estos fenómenos, prevenir e implementar acciones para reducir riesgos, ya que México se encuentra en una zona propensa para el desarrollo de este tipo de fenómenos[^6].
  
 Sin duda, el invertir en ciencia tiene una componente importante, la formación de capacidades. El trabajo del científico no es un trabajo individual, requiere de un esfuerzo colectivo que involucra a muchos sectores, el gobierno, las universidades, sociedad civil e instituciones privadas.  Esta inversión no solamente fortalecerá a Universidades y Centros Públicos de Investigación, promueve la formación de capacidades para la toma de decisiones con base en conocimiento, y en casos muy exitosos la creación de servicios como en el desarrollo de vacunas. Invertir en este rubro robustece las instituciones promueve la mejora de servicios en los ámbitos sociales, de salud o ante catástrofes naturales.
 
 Porque bien decía mi abuela a veces “lo barato sale caro”.
 
-1. https://theconversation.com/nasa-report-finds-no-evidence-that-ufos-are-extraterrestrial-213528
-2. https://www.livescience.com/62045-alien-mummies-explained.html
-3. http://em.fis.unam.mx/blog/mochan/varios/20130501gt200.html
-4. https://mvsnoticias.com/opinion/2023/9/18/incremento-presupuestal-ciencia-en-2024-no-revertira-rezago-historico-607070.html
-5. OECD (2023), Gross domestic spending on R&D (indicator). doi:
+
+
+[^1]: https://theconversation.com/nasa-report-finds-no-evidence-that-ufos-are-extraterrestrial-213528
+[^2]: https://www.livescience.com/62045-alien-mummies-explained.html
+[^3]: http://em.fis.unam.mx/blog/mochan/varios/20130501gt200.html
+[^4]: https://mvsnoticias.com/opinion/2023/9/18/incremento-presupuestal-ciencia-en-2024-no-revertira-rezago-historico-607070.html
+[^5]: OECD (2023), Gross domestic spending on R&D (indicator). doi:
   10.1787/d8b068b4-en (Accessed on 01 November 2023)
-6. https://www.gaceta.unam.mx/radiografia-de-la-llegada-del-huracan-a-acapulco/
+[^6]: https://www.gaceta.unam.mx/radiografia-de-la-llegada-del-huracan-a-acapulco/
