@@ -207,9 +207,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Quarto es un sistema de código abierto para publicar textos técnicos y científicos. para ello utiliza <em>rmarkdown</em>, <span class="math inline">\(\LaTeX\)</span> y una gran variedad de programas de cómputo, yo lo integro con <em>python</em>. Los archivos de puedes generar van desde sitios web o blogs (este sitio web está generado en <em>quarto</em>), artículos, presentaciones, repositorios, tableros para la visualizació e interacción de datos y libros. En este post me referiré únicamente al formato libro.</p>
+<p>Quarto es un sistema de código abierto para publicar textos técnicos y científicos. para ello utiliza <em>rmarkdown</em>, <span class="math inline">\(\LaTeX\)</span> y tiene la posibilidad de integrar una gran variedad de programas de cómputo, yo lo integro con <em>python</em>. Los archivos de puedes generar van desde sitios web o blogs (este sitio web está generado en <em>quarto</em>), artículos, presentaciones, repositorios, tableros para la visualización e interacción de datos y libros. En este post me referiré únicamente al formato libro.</p>
 <iframe width="100%" height="300" src="https://quarto.org/" title="Quarto sitio oficial"></iframe>
-<p>Una de las ventajas que tiene quarto es la creación de textos en “codigo” y generar una salida. Esto tradicionalmente lo hacemos en <span class="math inline">\(\LaTeX\)</span> y código de <em>Python</em>, escribimos algo de código y obtenemos de salida, un <em>pdf</em> por ejemplo, con un documento de calidad listo para imprimir.</p>
+<p>Una de las ventajas que tiene <em>quarto</em> es la creación de textos en “codigo” y generar una salida. Esto tradicionalmente lo hacemos en <span class="math inline">\(\LaTeX\)</span> y obtenemos de salida, un <em>pdf</em>, con una calidad listo para imprimir.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Con <em>quarto</em> hacemos algo parecido, utilizamos <em>rmarkdown</em> para escribir texto y referecias cruzadas; con la ventaja que podemos enriquecer nuestros textos con <span class="math inline">\(\LaTeX\)</span>. Los archivos de salida son no solamemnte pdf, sino que puedes obtener un ebook y una página web (html). Cubriendo todos los formatos digitales posibles de salida con la posibilidad incementar las posibilidades de distribución del texto.</p>
+<p>Con <em>quarto</em> hacemos algo parecido, utilizamos <em>rmarkdown</em> para escribir texto y referecias cruzadas; estos textos se pueden enriquecer con <span class="math inline">\(\LaTeX\)</span> y algún lenguaje de programación, ya que es posible inserta código o bien sus salidas. Además, los archivos de salida no están limitados a <em>pdf</em>, sino que puedes obtener un ebook y una página web (html). Cubriendo todos los formatos digitales posibles de salida. incrementando las vías de distribución y canales de comunicación por una cantidad de trabajo única.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -240,14 +240,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>En este post describo brevemente un template que generé con <em>Quarto</em>, al cuál le integré algunos elementos para escribir de inmediato un libro y ayudar a reducir la curva de aprendizaje. Este template lo generé siguiendo la documentación oficial. Aquí describo una guía rápida de cómo usarla.</p>
-<p>Un dato importante es que debes tener ya instalado Python y Latex previamente para que al momento de correr quarto todo marche correctamente. También recomiendo descargar e instalar VS-Code, el cuál ofrece una interfaz gráfica para previsualizar el contenido que trabajes. Finalmente, descarga el template en tu computadora. Aquí todos los vínculos.</p>
+<p>Un dato importante es que antes de previsualizar <code>preview</code> debes tener ya instalado Python y Latex previamente para que al momento de correr quarto todo marche correctamente. También recomiendo descargar e instalar VS-Code, el cuál ofrece una interfaz gráfica para previsualizar el contenido que trabajes. Finalmente, descarga el template en tu computadora. Aquí todos los vínculos.</p>
 <ol type="1">
 <li><p>Descarga e instala Quarto <a href="https://quarto.org" class="uri">https://quarto.org</a></p></li>
 <li><p>Descargar VS-code <a href="https://code.visualstudio.com" class="uri">https://code.visualstudio.com</a></p></li>
 <li><p>Descarga el template <a href="https://github.com/OsvaldoRH/libro_quatro_template" class="uri">https://github.com/OsvaldoRH/libro_quatro_template</a></p></li>
 </ol>
-<p>Con lo anterior ya hecho basta con correr quarto a través de la terminal o en VSCode para previsualizar el template del libro. El cuál solo debes modificar para personalizarlo. Hice un breve video de referencia que espero sea de utilidad.</p>
-<p>Aquí el video de cómo hacer un <em>preview</em> y un render y tener de salida e htam, pdf y un ebook.</p>
+<p>Con lo anterior ya hecho basta con correr quarto a través de la terminal usando en la ubicación del template el comando <code>quarto preview</code> para previsualizar tu texto y si quieres tener todas las salidad debes ejecuta <code>quarto render</code>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ojo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Después del <code>quarto render</code> hay que ejecutar <code>quarto preview</code> para previsualizar.</p>
+</div>
+</div>
+<p>La previsualización puedes hacerla usando VSCode. En el programa podrás navegar y visualizar los <code>.qmd</code> que son los archivos que hay que editar para ajustar el template a tus necesidades. Hice un breve video de referencia que espero sea de utilidad.</p>
+<p>Aquí el video de cómo hacer un <code>quarto preview</code> y un <code>quarto render</code>; para tener como salida los archivos <em>html</em>, <em>pdf</em> y un <em>ebook</em>.</p>
 <div class="quarto-video ratio ratio-21x9"><iframe data-external="1" src="https://www.youtube.com/embed/lrotSZe568o?start=0" title="Descripción del template Libro_template" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 

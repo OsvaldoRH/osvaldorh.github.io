@@ -16,20 +16,20 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 lang: es 
 ---
 
-Quarto es un sistema de código abierto para publicar textos técnicos y científicos. para ello utiliza *rmarkdown*, $\LaTeX$ y una gran variedad de programas de cómputo, yo lo integro con *python*. Los archivos de puedes generar van desde sitios web o blogs (este sitio web está generado en *quarto*), artículos, presentaciones, repositorios, tableros para la visualizació e interacción de datos y libros. En este post me referiré únicamente al formato libro. 
+Quarto es un sistema de código abierto para publicar textos técnicos y científicos. para ello utiliza *rmarkdown*, $\LaTeX$ y tiene la posibilidad de integrar una gran variedad de programas de cómputo, yo lo integro con *python*. Los archivos de puedes generar van desde sitios web o blogs (este sitio web está generado en *quarto*), artículos, presentaciones, repositorios, tableros para la visualización e interacción de datos y libros. En este post me referiré únicamente al formato libro. 
 
 ```{=html}
 <iframe width="100%" height="300" src="https://quarto.org/" title="Quarto sitio oficial"></iframe>
 ```
 
-Una de las ventajas que tiene quarto es la creación de textos en "codigo" y generar una salida. Esto tradicionalmente lo hacemos en $\LaTeX$ y código de *Python*, escribimos algo de código y obtenemos de salida, un *pdf* por ejemplo, con un documento de calidad listo para imprimir.
+Una de las ventajas que tiene *quarto* es la creación de textos en "codigo" y generar una salida. Esto tradicionalmente lo hacemos en $\LaTeX$ y obtenemos de salida, un *pdf*, con una calidad listo para imprimir.
 
 ```{mermaid}
 flowchart LR
   A(LaTeX) --> B(PDF)
 ```
 
-Con *quarto* hacemos algo parecido, utilizamos *rmarkdown* para escribir texto y referecias cruzadas; con la ventaja que podemos enriquecer nuestros textos con $\LaTeX$. Los archivos de salida son no solamemnte pdf, sino que puedes obtener un ebook y una página web (html). Cubriendo todos los formatos digitales posibles de salida con la posibilidad incementar las posibilidades de distribución del texto.
+Con *quarto* hacemos algo parecido, utilizamos *rmarkdown* para escribir texto y referecias cruzadas; estos textos se pueden enriquecer con $\LaTeX$ y algún lenguaje de programación, ya que es posible inserta código o bien sus salidas. Además, los archivos de salida no están limitados a *pdf*, sino que puedes obtener un ebook y una página web (html). Cubriendo todos los formatos digitales posibles de salida. incrementando las vías de distribución y canales de comunicación por una cantidad de trabajo única.
 
 ```{mermaid}
 flowchart LR
@@ -45,7 +45,7 @@ flowchart LR
 
 En este post describo brevemente un template que generé con *Quarto*, al cuál le integré algunos elementos para escribir de inmediato un libro y ayudar a reducir la curva de aprendizaje. Este template lo generé siguiendo la documentación oficial. Aquí describo una guía rápida de cómo usarla.
 
-Un dato importante es que debes tener ya instalado Python y Latex previamente para que al momento de correr quarto todo marche correctamente. También recomiendo descargar e instalar VS-Code, el cuál ofrece una interfaz gráfica para previsualizar el contenido que trabajes. Finalmente, descarga el template en tu computadora. Aquí todos los vínculos. 
+Un dato importante es que antes de previsualizar `preview` debes tener ya instalado Python y Latex previamente para que al momento de correr quarto todo marche correctamente. También recomiendo descargar e instalar VS-Code, el cuál ofrece una interfaz gráfica para previsualizar el contenido que trabajes. Finalmente, descarga el template en tu computadora. Aquí todos los vínculos. 
 
 1. Descarga e instala Quarto <https://quarto.org>
 
@@ -53,9 +53,17 @@ Un dato importante es que debes tener ya instalado Python y Latex previamente pa
 
 3. Descarga el template <https://github.com/OsvaldoRH/libro_quatro_template>
 
-Con lo anterior ya hecho basta con correr quarto a través de la terminal o en VSCode para previsualizar el template del libro. El cuál solo debes modificar para personalizarlo. Hice un breve video de referencia que espero sea de utilidad.
+Con lo anterior ya hecho basta con correr quarto a través de la terminal usando en la ubicación del template el comando `quarto preview` para previsualizar tu texto y si quieres tener todas las salidad debes ejecuta `quarto render`.
 
-Aquí el video de cómo hacer un *preview* y un render y tener de salida e htam, pdf y un ebook.
+::: {.callout-tip}
+## Ojo
+
+Después del `quarto render` hay que ejecutar `quarto preview` para previsualizar.
+:::
+
+La previsualización puedes hacerla usando VSCode. En el programa podrás navegar y visualizar los `.qmd` que son los archivos que hay que editar para ajustar el template a tus necesidades. Hice un breve video de referencia que espero sea de utilidad.
+
+Aquí el video de cómo hacer un `quarto preview` y un `quarto render`; para tener como salida los archivos *html*, *pdf* y un *ebook*.
 
 {{< video https://youtu.be/lrotSZe568o
     title="Descripción del template Libro_template"
