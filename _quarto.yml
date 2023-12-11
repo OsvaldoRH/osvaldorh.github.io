@@ -6,6 +6,7 @@ project:
     - Practica_02.pdf
 
 website:
+  google-analytics: "G-JMHP9PPZM4"
   #title: "osroh - website"
   page-navigation: true
   navbar:
