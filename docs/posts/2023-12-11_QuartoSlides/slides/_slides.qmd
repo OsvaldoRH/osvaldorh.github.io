@@ -1,0 +1,104 @@
+---
+title: Título de la diapositiva
+subtitle: "Un subtítulo"
+format:
+  revealjs:
+    output-file: slides.html
+    theme: dark
+    #smaller: true
+    scrollable: true
+    slide-number: true
+    #show-slide-number: print
+    #navigation-mode: vertical
+    controls-layout: bottom-right 
+    controls-tutorial: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 1
+      buttons: true
+  
+author:
+  - name: "Autor 1"
+    orcid: 0000-000X-XXXX-XXXX
+    email: autor_1@edu
+    affiliation: 
+      - name: Instituto
+        url: my_web_personal
+  - name: "Autor 2"
+    orcid: 0000-000X-XXXX-XXXX
+    email: autor_2@edu
+    affiliation: 
+      - name: Instituto
+        url: my_web_personal
+#logo: img/logo_color.png
+footer: "Congreso de universidades - 2023"
+---
+
+# Sección 1 {background-color=rgba(157,146,170)}
+
+## Diapositiva 1
+::::{.columns}
+
+:::{.column width="50%"}
+Aquí una columna:
+
+- primero
+- segundo
+- tercero
+:::
+
+:::{.column width="50%"}
+
+![Una imagen](this_is_fine.png)
+:::
+
+::::
+
+
+## Algo de código {.smaller}
+
+
+Aqui algo de texto, se incluye ```{.smaller}``` al lado del título de la diapositiva para reducir el tamaño del texto.
+Una ecuación, 
+
+$$
+\frac{P}{A}= \frac{1}{2} \rho V^3
+$$
+
+```{python}
+#| echo: true
+import numpy as np
+import matplotlib.pyplot as plt 
+
+Velocidad=np.arange(0,10,0.1)
+Densidad_Potencia=0.5*1.2*Velocidad**3
+
+plt.plot(Velocidad,Densidad_Potencia,'.')
+plt.show()
+```
+
+
+## Animaciones {auto-animate=true}
+
+Una primera frase
+
+## Animaciones {auto-animate=true}
+
+Pero antes esto...
+
+Una primera frase
+
+
+::: {style="margin-top: 100px;"}
+Pero esto es muy importante!!!
+:::
+
+## Animaciones {auto-animate=true}
+
+Pero antes esto...
+
+Una primera frase
+
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+Pero esto es importante
+:::

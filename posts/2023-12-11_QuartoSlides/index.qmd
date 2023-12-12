@@ -7,7 +7,7 @@ author:
     orcid: 0000-0002-6567-4669
     affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
     affiliation-url: https://www.ier.unam.mx 
-date: 11-13-2023
+date: 12-12-2023
 categories: [quarto, powerpoint ,python, slides, template, beamer, revealjs] # self-defined categories
 citation: 
   url: https://osvaldorh.github.io/posts/2016-11-13_IntroQuarto
@@ -81,7 +81,7 @@ Aquí una columna:
 
 :::{.column width="50%"}
 
-![Una imagen](this_is_fine.webp)
+![Una imagen](this_is_fine.png)
 
 :::
 
