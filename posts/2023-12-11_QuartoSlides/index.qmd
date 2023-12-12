@@ -154,7 +154,7 @@ Si con todo esto aún extrañas beamer basta escribir en una terminal donde se e
 
 Aquí la salida de beamer
 
-{{< pdf slides/slides.pdf width=100% height=400 >}}
+{{< pdf slides/_slides.pdf width=100% height=400 >}}
 
 O bien, si prefieres un Powerpoint
 
