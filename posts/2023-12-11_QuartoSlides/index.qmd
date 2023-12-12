@@ -1,0 +1,167 @@
+---
+title: "Slides con Quarto, el adiós de beamer?"
+description: "Presentaciones con Quarto"
+author:
+  - name: Osvaldo Rodríguez
+    url: https://osvaldorh.github.io/
+    orcid: 0000-0002-6567-4669
+    affiliation: Investigador en el Instituto de Energías Renovables de la UNAM , Grupo de energía Eólica
+    affiliation-url: https://www.ier.unam.mx 
+date: 11-13-2023
+categories: [quarto, powerpoint ,python, slides, template, beamer, revealjs] # self-defined categories
+citation: 
+  url: https://osvaldorh.github.io/posts/2016-11-13_IntroQuarto
+image: image.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+lang: es 
+---
+#### Adios Beamer?
+De las cosas que me gustan pero que me consumen tiempo es preparar una presentación técnica que incluya una descripción de un programa. Como todos, creo, inicié haciendo presentaciones en Powerpoint, Keynote y Beamer ($\LaTeX$), en ese orden. Este último con los mejores resultados pero con un poco más de trabajo para que las diapositivas hicieran lo que yo quería. 
+
+Esto ha cambiado con Quarto, utilizando su opción de slides, que permite hacer diapositivas usando menos código. El formato es *quarto mark down*  ```*.qmd``` que es un "semi-código". La ventaja, es que puedes usar $\LaTeX$, embeber código, el output del código, entre muchas otras monerías.
+
+Para usar el template necesitas:
+
+1. Descargar e instalar Quarto <https://quarto.org>
+
+2. Descargar VS-code <https://code.visualstudio.com>, con VScode puedes brear un archivo ```.qmd```y pegar el código, recuerda incluir una figura para que todo marche ok. Si usas VScode, basta instalar la extensión de quarto y usar el botón preview.
+
+Lo primero es definir un preámbulo aquí te dejo uno que hace muchas cosas, dejo algunas cosas comentadas para que juegues con él un poco.
+
+#### El código
+```` {.yaml .code-overflow-wrap}
+---
+title: Título de la diapositiva
+subtitle: "Un subtítulo"
+format:
+  beamer
+  revealjs:
+    output-file: slide.html
+    theme: default
+    #smaller: true
+    scrollable: true
+    slide-number: true
+    #show-slide-number: print
+    #navigation-mode: vertical
+    controls-layout: bottom-right 
+    controls-tutorial: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 1
+      buttons: true
+author:
+  - name: "Autor 1"
+    orcid: 0000-000X-XXXX-XXXX
+    email: autor_1@edu
+    affiliation: 
+      - name: Instituto
+        url: my_web_personal
+  - name: "Autor 2"
+    orcid: 0000-000X-XXXX-XXXX
+    email: autor_2@edu
+    affiliation: 
+      - name: Instituto
+        url: my_web_personal
+#logo: img/logo_color.png
+footer: "Congreso de universidades - 2023"
+---
+
+# Sección 1
+
+## Diapositiva 1
+::::{.columns}
+
+:::{.column width="50%"}
+Aquí una columna:
+
+- primero
+- segundo
+- tercero
+:::
+
+:::{.column width="50%"}
+
+![Una imagen](this_is_fine.webp)
+
+:::
+
+::::
+
+
+## Algo de código {.smaller}
+
+Aquí algo de texto, se incluye ```{.smaller}``` al lado del título de la diapositiva para reducir el tamaño del texto.
+
+```{{python}}
+import numpy as np
+import matplotlib.pyplot as plt 
+Velocidad=np.arange(0,10,0.1)
+Densidad_Potencia=0.5*1.2*Velocidad**3
+plt.plot(Velocidad,Densidad_Potencia,'.')
+plt.show()
+```
+
+## Animaciones {auto-animate=true}
+
+Una primera frase
+
+## Animaciones {auto-animate=true}
+
+Pero antes esto...
+
+Una primera frase
+
+:::{style="margin-top: 100px;"}
+Pero esto es importante
+:::
+
+## Animaciones {auto-animate=true}
+
+Pero antes esto...
+
+Una primera frase
+
+:::{style="margin-top: 200px; font-size: 3em; color: red;"}
+Pero esto es importante
+:::
+
+````
+Copia y pega esto en un ```archivo.qmd``` y ejecuta: 
+
+```quarto preview archivo.qmd```
+
+y listo!!!!
+
+#### La salida
+La salida de este código será una presentación en formato ```html``` la cual tiene su propio sistema de navegación y un pizarrón. Si usas un 'Ipad', puedes utilizar un 'pencil' y escribir en tus diapositivas.  Aquí la salida:
+
+```{=html}
+<iframe width="100%" height="300" src="slides/slides.html" title="Slides"></iframe>
+```
+
+#### Una descripción rápida...
+Para hacer diapositivas basta con anteponer un signo de ```#```:
+
+- ```# *Nombre de la sección*``` un ```#``` para crear secciones.
+- ```## *Titulo de la diapositiva*``` dos```#``` seguidas del título de la diapositiva para crearla.
+
+Más detalles puedes darle una visitada al sito <https://quarto.org/docs/presentations/>
+
+
+Si con todo esto aún extrañas beamer basta escribir en una terminal donde se encuentre tu ```archivo.qmd``` lo siguiente: 
+
+```quarto render archivo.qmd --to beamer```
+
+Aquí la salida de beamer
+
+{{< pdf slides/slides.pdf width=100% height=400 >}}
+
+O bien, si prefieres un Powerpoint
+
+```quarto render archivo.qmd --to pptx```
+
+Creo que lejos de ser el final de beamer, Quarto facilita mucho las cosas para generarlos. Claro, las salidas pueden ser personalizadas pero eso es otra historia. 
+
+
+
+
