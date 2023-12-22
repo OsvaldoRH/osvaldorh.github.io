@@ -1,0 +1,11 @@
+{
+  "hash": "e25b5bfecacb280b26d2f21f0a0767f1",
+  "result": {
+    "markdown": "---\ntitle: Título de la diapositiva\nsubtitle: \"Un subtítulo\"\nformat:\n  revealjs:\n    theme: default\n    #smaller: true\n    scrollable: true\n    slide-number: true\n    #show-slide-number: print\n    #navigation-mode: vertical\n    controls-layout: bottom-right \n    controls-tutorial: true\n    chalkboard:\n      theme: whiteboard\n      boardmarker-width: 1\n      buttons: true\n  \nauthor:\n  - name: \"Autor 1\"\n    orcid: 0000-000X-XXXX-XXXX\n    email: autor_1@edu\n    affiliation: \n      - name: Instituto\n        url: my_web_personal\n  - name: \"Autor 2\"\n    orcid: 0000-000X-XXXX-XXXX\n    email: autor_2@edu\n    affiliation: \n      - name: Instituto\n        url: my_web_personal\n#logo: img/logo_color.png\nfooter: \"Congreso de universidades - 2023\"\n---\n\n# Sección 1 {background-color=rgba(157,146,170)}\n\n## Diapositiva 1\n::::{.columns}\n\n:::{.column width=\"50%\"}\nAquí una columna:\n\n- primero\n- segundo\n- tercero\n:::\n\n:::{.column width=\"50%\"}\n\n![Una imagen](this_is_fine.png)\n:::\n\n::::\n\n\n## Algo de código {.smaller}\n\n\nAqui algo de texto, se incluye ```{.smaller}``` al lado del título de la diapositiva para reducir el tamaño del texto.\nUna ecuación, \n\n$$\n\\frac{P}{A}= \\frac{1}{2} \\rho V^3\n$$\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt \n\nVelocidad=np.arange(0,10,0.1)\nDensidad_Potencia=0.5*1.2*Velocidad**3\n\nplt.plot(Velocidad,Densidad_Potencia,'.')\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](slide_files/figure-revealjs/cell-2-output-1.png){width=798 height=411}\n:::\n:::\n\n\n## Animaciones {auto-animate=true}\n\nUna primera frase\n\n## Animaciones {auto-animate=true}\n\nPero antes esto...\n\nUna primera frase\n\n\n::: {style=\"margin-top: 100px;\"}\nPero esto es muy importante!!!\n:::\n\n## Animaciones {auto-animate=true}\n\nPero antes esto...\n\nUna primera frase\n\n::: {style=\"margin-top: 200px; font-size: 3em; color: red;\"}\nPero esto es importante\n:::\n\n",
+    "supporting": [
+      "slide_files/figure-revealjs"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

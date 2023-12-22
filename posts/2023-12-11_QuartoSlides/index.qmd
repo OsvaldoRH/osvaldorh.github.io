@@ -29,15 +29,14 @@ Para usar el template necesitas:
 Lo primero es definir un preámbulo aquí te dejo uno que hace muchas cosas, dejo algunas cosas comentadas para que juegues con él un poco.
 
 #### El código
-```` {.yaml .code-overflow-wrap}
+````{.yaml .code-overflow-wrap}
+
 ---
 title: Título de la diapositiva
 subtitle: "Un subtítulo"
 format:
-  beamer
   revealjs:
-    output-file: slide.html
-    theme: default
+    theme: simple #beige, blood, dark, default, league, moon, night, serif, simple, sky, solarized
     #smaller: true
     scrollable: true
     slide-number: true
@@ -49,6 +48,7 @@ format:
       theme: whiteboard
       boardmarker-width: 1
       buttons: true
+  
 author:
   - name: "Autor 1"
     orcid: 0000-000X-XXXX-XXXX
@@ -66,7 +66,7 @@ author:
 footer: "Congreso de universidades - 2023"
 ---
 
-# Sección 1
+# Sección 1 {background-color=rgba(157,146,170)}
 
 ## Diapositiva 1
 ::::{.columns}
@@ -82,7 +82,6 @@ Aquí una columna:
 :::{.column width="50%"}
 
 ![Una imagen](this_is_fine.png)
-
 :::
 
 ::::
@@ -90,17 +89,28 @@ Aquí una columna:
 
 ## Algo de código {.smaller}
 
-Aquí algo de texto, se incluye ```{.smaller}``` al lado del título de la diapositiva para reducir el tamaño del texto.
 
-```{{python}}
+Aquí algo de texto, se incluye ```{.smaller}``` al lado del título de la diapositiva para reducir el tamaño del texto.
+Una ecuación, 
+
+$$
+\frac{P}{A}= \frac{1}{2} \rho V^3
+$$
+
+
+```{python}
+#| echo: true
 import numpy as np
 import matplotlib.pyplot as plt 
+
 Velocidad=np.arange(0,10,0.1)
 Densidad_Potencia=0.5*1.2*Velocidad**3
+
 plt.plot(Velocidad,Densidad_Potencia,'.')
 plt.show()
 ```
 
+
 ## Animaciones {auto-animate=true}
 
 Una primera frase
@@ -111,8 +121,9 @@ Pero antes esto...
 
 Una primera frase
 
-:::{style="margin-top: 100px;"}
-Pero esto es importante
+
+::: {style="margin-top: 100px;"}
+Pero esto es muy importante!!!
 :::
 
 ## Animaciones {auto-animate=true}
@@ -121,11 +132,41 @@ Pero antes esto...
 
 Una primera frase
 
-:::{style="margin-top: 200px; font-size: 3em; color: red;"}
-Pero esto es importante
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+Pero esto es muy importante!!!
 :::
+
+
+
+## Incrustar un sitio web {.smaller}
+
+Para embeber un sitio web usas:
+
+
+
+<iframe width="780" height="500" src="https://osvaldorh.github.io/" title="Quarto Documentation"></iframe>
+
+
+Y la salida es: 
+
+
+````{=html}
+<iframe width="780" height="500" src="https://osvaldorh.github.io/" title="Quarto Documentation"></iframe>
+```
+
+
+
+## Incrustar un video {.smaller}
+
+ Para un video de youtube
+
+```{.yaml .code-overflow-wrap}
+{< video https://youtu.be/lrotSZe568o?si=qB1B38Yjpt5Jo5RH width="100%" height="85%" >}
+```
+
 
 ````
+
 Copia y pega esto en un ```archivo.qmd``` y ejecuta: 
 
 ```quarto preview archivo.qmd```
@@ -133,11 +174,17 @@ Copia y pega esto en un ```archivo.qmd``` y ejecuta:
 y listo!!!!
 
 #### La salida
-La salida de este código será una presentación en formato ```html``` la cual tiene su propio sistema de navegación y un pizarrón. Si usas un 'Ipad', puedes utilizar un 'pencil' y escribir en tus diapositivas.  Aquí la salida:
+La salida de este código será una presentación en formato ```html``` la cual tiene su propio sistema de navegación y un pizarrón. Si usas un 'Ipad', puedes utilizar un 'pencil' y escribir en tus diapositivas.  
+
+Aquí la salida:
+
 
 ```{=html}
-<iframe width="100%" height="300" src="slides/slides.html" title="Slides"></iframe>
+<iframe width="100%" height="500" src="https://osvaldorh.github.io/diapositivas/" title="Ejemplo de diapositivas"></iframe>
 ```
+
+O bien puedes dar click [aquí](https://osvaldorh.github.io/diapositivas/) para ver la presentación como un sitio web.
+
 
 #### Una descripción rápida...
 Para hacer diapositivas basta con anteponer un signo de ```#```:
@@ -152,15 +199,16 @@ Si con todo esto aún extrañas beamer basta escribir en una terminal donde se e
 
 ```quarto render archivo.qmd --to beamer```
 
-Aquí la salida de beamer
+Y obtienes:
 
-{{< pdf slides/_slides.pdf width=100% height=400 >}}
+{{< pdf slides/_slide.pdf width=100% height=400 >}}
 
 O bien, si prefieres un Powerpoint
 
 ```quarto render archivo.qmd --to pptx```
 
-Creo que lejos de ser el final de beamer, Quarto facilita mucho las cosas para generarlos. Claro, las salidas pueden ser personalizadas pero eso es otra historia. 
+
+Creo que lejos de ser el final de beamer, Quarto facilita mucho las cosas para generarlos. Claro, las salidas deben ser personalizadas pero eso es otra historia. 
 
 
 
