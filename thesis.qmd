@@ -52,6 +52,8 @@ Título del trabajo: Diseño y construcción de un aerogenerador de baja potenci
 
 8. Roberto Carlos Magaña Gonzalez. *Licenciatura en Ingeniería en Energías Renovables, IER UNAM.*  Título del trabajo: Analysis of seasonal variability and complementarity of wind and solar resources in Mexico. **Graduado el 8-12-2023.**
 
+9. Alyn Castaño Gonzalez. *Licenciatura en Ingeniería en Energías Renovables, IER UNAM.*  Título del trabajo: Análisis del recurso eólico para la generación eléctrica en distintas regiones de México. **15 de diciembre de 2023**
+
 
 ## Maestría
 
