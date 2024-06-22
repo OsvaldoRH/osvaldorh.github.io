@@ -31,13 +31,13 @@ $cyan:    #3498db !default;
 
 // Body
 
-$body-bg:                   $gray-700 !default;
+$body-bg:                   $blue !default;
 $body-color:                $white !default;
 @function body-mix($weight) {
     @return mix($body-bg, $body-color, $weight);
 }
 
-$primary:       $blue !default;
+$primary:       $gray-800 !default;
 $secondary:     body-mix(90%) !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -46,8 +46,8 @@ $danger:        $red !default;
 // This is inconsistent with Bootstrap semantics. That is, $dark
 // should actually be a light color in a dark mode setting, :shrug:
 // https://github.com/thomaspark/bootswatch/issues/989
-$light:         body-mix(65%) !default;
-$dark:          body-mix(95%) !default;
+$light:         $gray-100 !default;
+$dark:          $green !default;
 
 $min-contrast-ratio:   1.9 !default;
 
@@ -86,8 +86,8 @@ $form-file-button-color:          $body-color !default;
 // Dropdowns
 
 $dropdown-bg:                       $body-bg !default;
-$dropdown-border-color:             body-mix(85%) !default;
-$dropdown-divider-bg:               body-mix(85%) !default;
+$dropdown-border-color:             body-mix(95%) !default;
+$dropdown-divider-bg:               body-mix(95%) !default;
 $dropdown-link-color:               $body-color !default;
 $dropdown-link-hover-color:         $body-color !default;
 $dropdown-link-hover-bg:            $primary !default;
@@ -95,7 +95,7 @@ $dropdown-link-hover-bg:            $primary !default;
 // Navs
 
 $nav-link-padding-x:                2rem !default;
-$nav-link-disabled-color:           body-mix(65%) !default;
+$nav-link-disabled-color:           body-mix(95%) !default;
 $nav-tabs-border-color:             body-mix(85%) !default;
 $nav-tabs-link-hover-border-color:  $nav-tabs-border-color $nav-tabs-border-color transparent !default;
 $nav-tabs-link-active-color:        $body-color !default;

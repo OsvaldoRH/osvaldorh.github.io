@@ -1,19 +1,10 @@
 ---
-title: Research
+title: "Research"
 echo: false
+jupyter: python3
 section-divs: false
 keep-md: true
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .qmd
-      format_name: quarto
-      format_version: '1.0'
-      jupytext_version: 1.15.2
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
+format: html
 ---
 
 ```{python}
@@ -40,7 +31,7 @@ pub_strs = {"pubs": {}, "wps": {}}
 for _, data in yaml_data.items():
     title_str = data["title"]
     authors = data.get("authors", ["me"])
-    authors = [aut if aut != "me" else "<strong>Rodríguez Hernández Osvaldo</strong>" for aut in authors]
+    authors = [aut if aut != "me" else "<strong>Osvaldo Rodriguez</strong>" for aut in authors]
     author_str = readable_list(authors)
     year_str = data["year"]
 
@@ -80,7 +71,8 @@ for _, data in yaml_data.items():
 ## Published
 
 ```{python}
-#| label: published-year
+#| label: "published-year"
+#| id: "published-year"
 #| output: asis
 for year in sorted(pub_strs["pubs"].keys(), reverse=True):
     display(Markdown(f"### {year}" + "{#" + f"published-{year}" + "}"))
@@ -92,7 +84,8 @@ for year in sorted(pub_strs["pubs"].keys(), reverse=True):
 ## Working Papers / Non-archival
 
 ```{python}
-#| label: not-published-year
+#| label: "not-published-year"
+#| id: "not-published-year"
 #| output: asis
 for year in sorted(pub_strs["wps"].keys(), reverse=True):
     display(Markdown(f"### {year}" + "{#" + f"not-published-{year}" + "}"))
@@ -100,15 +93,3 @@ for year in sorted(pub_strs["wps"].keys(), reverse=True):
         "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"][year]) + "</ul>"
     ))
 ```
-
-## Citas
-
-```{python}
-
-```
-
-
-
-
-
-
