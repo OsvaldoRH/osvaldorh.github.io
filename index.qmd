@@ -57,7 +57,12 @@ plt.show()
 Evaluación del recurso eólico en aplicaciones de baja y gran potencia | Estudios de factibilidad tecno-económica | Modelos meteorológicos en análisis eólico | Estudios locales, regionales y Nacionales del recurso | Complementariedad de sistemas de generación variable
 
 ### Semblanza
-Investigador de tiempo completo del Instituto de Energías Renovables en el Grupo de Energía Eólica. Es miembro del Sistema Nacional de Investigadores Nivel 1. Ha participado como expositor en congresos nacionales e internacionales y ha sido ganador en certámenes nacionales de ahorro de energía y sustentabilidad. Actualmente cuenta con colaboraciones con la Universidad Tecnológica de Delft en Países Bajos y la Universidad de Reading en Reino Unido, es responsable del Laboratorio de Sistemas Eólicos del IER y Responsable Técnico del proyecto 272063 del Fondo de Sustentabilidad Energética SENER-CONACyT cuya finalidad es contribuir en la formación de recursos humanos altamente especializados en investigación en Energía Eólica. Actualmente representa a los y las investigadoras del Instituto ante el H. Consejo Universitario de la UNAM.
+Osvaldo Rodríguez Hernández es físico y doctor en Ingeniería, especializado en el estudio del viento y cómo aprovecharlo para generar energía limpia. Como investigador en el Instituto de Energías Renovables de la UNAM, se dedica a desarrollar metodologías para evaluar el potencial eólico, tanto para pequeños proyectos como grandes parques eólicos. Su trabajo incluye analizar la viabilidad económica y técnica de las turbinas eólicas y estudiar la velocidad del viento con modelos meteorológicos avanzados.
+
+Con colaboraciones internacionales, como con la Universidad de Delft en Países Bajos y la Universidad de Reading en Reino Unido, Osvaldo está a la vanguardia de la investigación en energía eólica. Además, lidera el Laboratorio de Sistemas Eólicos en el IER y fué el responsable de uno de los proyectos más grandes de formación de expertos en energía eólica en México.
+
+También es profesor de licenciatura y posgrado, y ha participado en congresos nacionales e internacionales, siendo galardonado por sus contribuciones a la sustentabilidad. Su misión es ayudar a México a aprovechar mejor el viento como una fuente de energía limpia, sostenible y rentable.
+
 
 ### Educación
 
