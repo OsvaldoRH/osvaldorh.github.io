@@ -18,7 +18,7 @@ format: html
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
     </a></li>
-<li class='list-group-item'>Hernandez-Yepes Jose Gustavo, <strong>Osvaldo Rodriguez</strong>, Lopez-Villalobos Carlor Alberto, and Martínez-Alvarado Oscar. (2024) "Atmospheric mesoscale modeling to simulate annual and seasonal wind speeds for wind energy production in Mexico." <em>SUSTAINABLE ENERGY TECHNOLOGIES AND ASSESSMENTS</em><br><a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.1016/j.seta.2024.103848" target="_blank" rel="noopener noreferrer">
+<li class='list-group-item'>Martínez-Vega Roberto Emmanuel, Salgado-Herrera Nadia María, <strong>Osvaldo Rodriguez</strong>, Robles Miguel, and Rodríguez-Rodríguez Juan Ramón. (2024) "Validación de una microrred mediante software in the loop para la inyección de potencia activa en redes eléctricas de distribución." <em>Ingeniería Investigación y Tecnología</em><br><a class="btn btn-outline-dark btn-sm", href="https://doi.org/10.22201/fi.25940732e.2024.25.4.030" target="_blank" rel="noopener noreferrer">
         <i class="ai ai-archive" role='img' aria-label='Published'></i>
         Published
     </a></li></ul>
