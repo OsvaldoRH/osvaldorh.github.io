@@ -21,7 +21,7 @@ format: html
 </div>
 ```
 
-## Licenciatura
+## Licenciatura (9 tesis)
 1. Juan Carlos Gutiérrez Pliego, Universidad Politécnica del Estado de Morelos, Ingeniero en Tecnología Ambiental. Título del trabajo: Revisión de impactos ambientales en energía eólica y su contexto en México. **Fecha de Titulación: 6 de Diciembre del 2017.**
 
 
@@ -46,7 +46,7 @@ Título del trabajo: Diseño y construcción de un aerogenerador de baja potenci
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/I9PEE3PA9C7XQ2I5V2LXXYSNCX52UDCDFCVI1MTGDCRLTGQRJY-34268?func=full-set-set&set_number=807958&set_entry=000010&format=999" role="button">Ver</a>
 
-7. Héctor Samuel Ruíz Segoviano.  *Licenciatura en Ingeniería en Energías Renovables, IER UNAM.* Título del trabajo: Diseño y prueba de un anemómetro para la evaluación del recurso eólico con aplicaciones en baja potencia. **Graduado el 25-06-2019.** \textbf{Tesis premiada Premio Afirme - Fundación UNAM 2022}.
+7. Héctor Samuel Ruíz Segoviano.  *Licenciatura en Ingeniería en Energías Renovables, IER UNAM.* Título del trabajo: Diseño y prueba de un anemómetro para la evaluación del recurso eólico con aplicaciones en baja potencia. **Graduado el 25-06-2019. Tesis premiada Premio Afirme - Fundación UNAM 2022.**
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/FN7CK6NPC3CGX7MR4F6GL5KUQ532GV5SX6G9IIB5YMSXPRJNQE-36054?func=full-set-set&set_number=807967&set_entry=000002&format=999" role="button">Ver</a>
 
@@ -55,43 +55,50 @@ Título del trabajo: Diseño y construcción de un aerogenerador de baja potenci
 9. Alyn Castaño Gonzalez. *Licenciatura en Ingeniería en Energías Renovables, IER UNAM.*  Título del trabajo: Análisis del recurso eólico para la generación eléctrica en distintas regiones de México. **15 de diciembre de 2023**
 
 
-## Maestría
+## Maestría (9 tesis)
 
-
-1. José Gustavo Hernández Yepes. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de modelos globales y mesoescala en evaluación del recurso eólico. Graduado el 23-01-2020. 
+1. José Gustavo Hernández Yepes. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de modelos globales y mesoescala en evaluación del recurso eólico. Graduado el 23-01-2020. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/SI9MK4N512TH22MFLSNQGF3VGDP9VYETTR7QJH3I6YYHIS8DBL-33212?func=full-set-set&set_number=807947&set_entry=000007&format=999" role="button">Ver</a>
 
-2. Octavio Gómez Montero. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Diseño e instrumentación de un banco de pruebas electromecánicas para aerogeneradores de baja potencia. Graduado el 22-01-2020.
+2. Octavio Gómez Montero. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Diseño e instrumentación de un banco de pruebas electromecánicas para aerogeneradores de baja potencia. Graduado el 22-01-2020.
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/QRD8GUHT1G5V7I6KCU2KD9E1X9KMCKK64YQSLR33J2HY2SBM79-32979?func=full-set-set&set_number=807945&set_entry=000006&format=999" role="button">Ver</a>
 
-3. Diego Arturo Canul Reyes. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Feasibility study of offshore wind energy in the Gulf of Mexico. Graduado el 14-10-2020. \textbf{Tesis premiada PINCC - UNAM 2023, Primer Lugar categoría Tesis de Maestría}. 
+3. Diego Arturo Canul Reyes. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Feasibility study of offshore wind energy in the Gulf of Mexico. **Graduado el 14-10-2020. Tesis premiada PINCC - UNAM 2023, Primer Lugar categoría Tesis de Maestría.**
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/8VEVKCYSL7456HKARQ5IAQR7SRVN7E38UYAYS5TA9UC31C46TV-08013?func=full-set-set&set_number=807942&set_entry=000005&format=999" role="button">Ver</a>
 
-4. Linda Guadalupe Canche Cab. \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Estudio de los fenómenos climáticos y su influencia sobre la producción de potencia de una granja eólica para la región de Arriaga, Chiapas. Graduada el 20-10-2020. 
+4. Linda Guadalupe Canche Cab. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Estudio de los fenómenos climáticos y su influencia sobre la producción de potencia de una granja eólica para la región de Arriaga, Chiapas. Graduada el 20-10-2020. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/P9XTFEB46YNAJHMHDXDPF8U97BT86SLN5SCG1JKL7PT1KGRIMB-32186?func=full-set-set&set_number=807938&set_entry=000004&format=999" role="button">Ver</a>
 
-5. Yaro Debeer, \textbf{Master of Science in Engineering Technology.}  Co-Director de Tesis, Vrije Universiteit Brussel. Título del trabajo: Research on the meteorological and electricity demand tendencies in Mexico. Graduado el 22-06-2021. En este trabajo soy co-director de tesis. 
+5. Yaro Debeer, **Master of Science in Engineering Technology.** Co-Director de Tesis, Vrije Universiteit Brussel. Título del trabajo: Research on the meteorological and electricity demand tendencies in Mexico. Graduado el 22-06-2021. En este trabajo soy co-director de tesis. 
 
 <a class="btn btn-primary btn-sm" href="https://quarto.org" role="button">Ver</a>
 
-6. Hector Samuel Ruíz Segoviano.  \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de la efectividad de datos de reanálisis para aplicaciones en energía eólica en un entorno insular. Graduado el 17-03-2022. 
+6. Hector Samuel Ruíz Segoviano. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis de la efectividad de datos de reanálisis para aplicaciones en energía eólica en un entorno insular. Graduado el 17-03-2022. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/YJ9BAU5S8SSL2QESTPBGR6GGU21GSGLUJC2ELQE2SUTCL4GGY6-30822?func=full-set-set&set_number=807932&set_entry=000002&format=999" role="button">Ver</a>
 
-7. Lourdes Guadalupe Zamora García, \textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Wind power temporal and spatial variability and its complementarity with the regional electricity demand in Mexico.  Graduada el 29-06-2022. 
+7. Lourdes Guadalupe Zamora García, **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Wind power temporal and spatial variability and its complementarity with the regional electricity demand in Mexico. Graduada el 29-06-2022. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/GVMB7QVBTV7E2I87VXTBEIMKTJ2SVCTIAFIXLBJMHMT37XG9KD-31487?func=full-set-set&set_number=807934&set_entry=000003&format=999" role="button">Ver</a>
 
-8. Karla Alicia García Rivera,\textbf{Maestría en Ingeniería}, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis del recurso eólico en Puerto Peñasco, Sonora con datos de reanálisis, Graduada el 31-05-2023. 
+8. Karla Alicia García Rivera, **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Análisis del recurso eólico en Puerto Peñasco, Sonora con datos de reanálisis, Graduada el 31-05-2023. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/DCVEVP6MRINFVRH1MY8Y5EHJNUX3T6QED8NFIHUX94QT6UR6BB-29885?func=full-set-set&set_number=807923&set_entry=000001&format=999" role="button">Ver</a>
 
-## Doctorado 
+9. Brian Raymundo Cortés Nava. **Maestría en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Estudio del aumento de la resolución espacial de modelación mesoescala para el análisis del recurso eólico. **Año de titulación: 2024.**
+
+<a class="btn btn-primary btn-sm" href="https://web.siia.unam.mx/siia-publico/v/include/modulo_productos/tesis.php?id=297392" role="button">Ver ficha institucional</a>
+
+## Doctorado (2 tesis)
 
 1. Carlos Alberto López Villalobos, Doctorado en Ingeniería en Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: Caracterización de la intensidad de turbulencia y energía contenida en ráfagas para aplicaciones en energía eólica. Este trabajo se desarrolló en Co-Dirección con el Dr. Rafael Campos Amezcua. Graduado el 02-08-2019. 
 
 <a class="btn btn-primary btn-sm" href="https://tesiunam.dgb.unam.mx/F/59RTG3S7QLKMEP3D8MTR5HHFP87QVQRCFGB8RG2YDFGEG64B4R-33615?func=full-set-set&set_number=807950&set_entry=000008&format=999" role="button">Ver</a>
+
+2. Diego Arturo Canul Reyes. **Doctorado en Ingeniería**, Energía, Posgrado en Ingeniería, UNAM. Título del trabajo: High-resolution wind speed data and its influence on wind energy aspects in Mexico. **Año de titulación: 2025.**
+
+<a class="btn btn-primary btn-sm" href="https://tesiunamdocumentos.dgb.unam.mx/ptd2025/ene_mar/0867541/Index.html" role="button">Ver</a>

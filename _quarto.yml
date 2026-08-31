@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "posts/**/index.qmd"
+    - "!research.md"
   resources:
     - Practica_01.pdf
     - Practica_02.pdf
@@ -56,4 +60,3 @@ format:
         dark: ier_dark.scss
     css: styles.css
     page-layout: full
-
